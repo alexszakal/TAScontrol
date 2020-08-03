@@ -1,0 +1,142 @@
+Wed Sep 24 08:18:24 2014: move(axis=SRV35, targetPos=92.78
+Wed Sep 24 08:20:34 2014: move(axis=SRV35, targetPos=89.5
+Wed Sep 24 08:21:14 2014: move(axis=SRV35, targetPos=81.49
+
+Wed Sep 24 08:26:29 2014: schkl(start=[0, 0, 2.4, 2.4], step=[0, 0, 0, 0.2], np=3, time=650)
+
+Wed Sep 24 09:03:48 2014: schkl(start=[0, 0, 2.4, 2.4], step=[0, 0, 0, 0.2], np=3, time=650)
+
+Wed Sep 24 09:30:07 2014: schkl(start=[0, 0, 2.4, 3.4], step=[0, 0, 0, 0.2], np=3, time=650)
+Wed Sep 24 09:34:54 2014: move(axis=STP13, targetPos=180
+Wed Sep 24 09:36:29 2014: move(axis=STP15, targetPos=-5
+Wed Sep 24 09:37:42 2014: move(axis=STP15, targetPos=-6
+Wed Sep 24 09:37:57 2014: move(axis=STP14, targetPos=-6
+Wed Sep 24 09:46:49 2014: move(axis=STP7, targetPos=30
+Wed Sep 24 09:47:36 2014: move(axis=STP10, targetPos=142
+Wed Sep 24 09:48:47 2014: move(axis=SRV34, targetPos=-61.51
+Wed Sep 24 09:49:40 2014: move(axis=SRV35, targetPos=41.83
+Wed Sep 24 09:50:20 2014: move(axis=STP25, targetPos=69.09
+Wed Sep 24 09:50:50 2014: move(axis=STP13, targetPos=236.27
+Wed Sep 24 09:51:52 2014: cscan(axis=om, amplitude=5, step=1, time=1)
+Wed Sep 24 09:53:23 2014: cscan(axis=om, amplitude=5, step=1, time=1)
+Wed Sep 24 09:55:58 2014: move(axis=STP13, targetPos=241.27
+Wed Sep 24 09:56:31 2014: cscan(axis=om, amplitude=0.5, step=0.1, time=1)
+Wed Sep 24 09:58:53 2014: move(axis=STP13, targetPos=241.47
+
+Wed Sep 24 09:59:53 2014: scan(axis=sgU, start=-8, step=1, end=8, time=1)
+Wed Sep 24 10:02:30 2014: move(axis=STP15, targetPos=-5
+Wed Sep 24 10:03:00 2014: move(axis=SRV34, targetPos=-72.38
+Wed Sep 24 10:03:50 2014: move(axis=STP13, targetPos=290.91
+Wed Sep 24 10:04:58 2014: cscan(axis=om, amplitude=1, step=0.1, time=1)
+Wed Sep 24 10:07:41 2014: move(axis=STP13, targetPos=290.91
+
+Wed Sep 24 10:07:54 2014: scan(axis=sgL, start=-8, step=1, end=8, time=1)
+Wed Sep 24 10:11:19 2014: move(axis=STP14, targetPos=-0.2
+Wed Sep 24 10:18:07 2014: move(axis=STP13, targetPos=290.91
+Wed Sep 24 10:18:19 2014: cscan(axis=s2th, amplitude=1, step=0.1, time=1)
+Wed Sep 24 10:27:15 2014: cscan(axis=om, amplitude=0.5, step=0.1, time=1)
+
+Wed Sep 24 10:33:44 2014: schkl(start=[0, 0, 1.95, 0], step=[0, 0, 0.01, 0], np=11, time=1)
+
+Wed Sep 24 10:40:20 2014: schkl(start=[1.95, 1.95, 0, 0], step=[0.01, 0.01, 0, 0], np=10, time=1)
+
+Wed Sep 24 10:47:40 2014: schkl(start=[2.05, 2.05, 0, 1], step=[2.05, 2.05, 0, 1], np=8, time=1)
+
+Wed Sep 24 10:47:51 2014: schkl(start=[2.05, 2.05, 0, 1], step=[2.05, 2.05, 0, 1], np=8, time=10)
+
+Wed Sep 24 10:48:56 2014: schkl(start=[2.05, 2.05, 0, 1], step=[0, 0, 0, 1], np=8, time=1)
+
+Wed Sep 24 10:49:01 2014: schkl(start=[2.05, 2.05, 0, 1], step=[0, 0, 0, 1], np=8, time=10)
+
+Wed Sep 24 11:05:29 2014: schkl(start=[0, 0, 2.05, 1], step=[0, 0, 0, 1], np=8, time=10)
+
+Wed Sep 24 11:07:16 2014: schkl(start=[0, 0, 2.05, 1], step=[0, 0, 0, 1], np=8, time=10)
+
+Wed Sep 24 11:21:17 2014: scan(axis=s1X, start=30, step=1, end=1, time=1)
+Wed Sep 24 11:27:24 2014: move(axis=STP7, targetPos=14
+
+Wed Sep 24 11:28:01 2014: scan(axis=s1U, start=142, step=0, end=10, time=1)
+
+Wed Sep 24 11:29:20 2014: scan(axis=s1U, start=142, step=10, end=0, time=1)
+Wed Sep 24 11:33:26 2014: move(axis=STP10, targetPos=80
+Wed Sep 24 11:35:01 2014: move(axis=STP1, targetPos=1090
+Wed Sep 24 11:35:24 2014: move(axis=STP1, targetPos=1090
+Wed Sep 24 11:35:51 2014: cscan(axis=mvfoc, amplitude=100, step=10, time=1)
+Wed Sep 24 11:37:15 2014: cscan(axis=mvfoc, amplitude=50, step=10, time=1)
+
+Wed Sep 24 11:39:50 2014: scan(axis=mvfoc, start=1040, step=10, end=1140, time=1)
+Wed Sep 24 11:43:26 2014: move(axis=STP1, targetPos=1100
+
+Wed Sep 24 11:44:11 2014: schkl(start=[0, 0, 2.05, 0.5], step=[0, 0, 0, 0.5], np=4, time=60)
+
+Wed Sep 24 11:54:28 2014: schkl(start=[0, 0, 2.05, 2.5], step=[0, 0, 0, 0.5], np=8, time=60)
+
+Wed Sep 24 12:19:24 2014: schkl(start=[0, 0, 2.05, 2.5], step=[0, 0, 0, -0.5], np=5, time=60)
+
+Wed Sep 24 12:21:51 2014: schkl(start=[0, 0, 2.05, 1.75], step=[0, 0, 0, 0.5], np=5, time=60)
+
+Wed Sep 24 12:35:14 2014: schkl(start=[0, 0, 2.07, 1], step=[0, 0, 0, 0.25], np=10, time=60)
+
+Wed Sep 24 12:58:03 2014: schkl(start=[0, 0, 2.07, 3.25], step=[0, 0, 0, 0.5], np=6, time=60)
+
+Wed Sep 24 13:14:35 2014: schkl(start=[0, 0, 2.1, 2], step=[0, 0, 0, 0.25], np=20, time=60)
+
+Wed Sep 24 14:02:24 2014: schkl(start=[0, 0, 2.1, 6.25], step=[0, 0, 0, 0.25], np=8, time=60)
+
+Wed Sep 24 14:02:40 2014: schkl(start=[0, 0, 2.1, 6.25], step=[0, 0, 0, 0.5], np=8, time=60)
+
+Wed Sep 24 14:05:27 2014: schkl(start=[0, 0, 2.1, 6.25], step=[0, 0, 0, 0.5], np=8, time=60)
+
+Wed Sep 24 14:05:42 2014: schkl(start=[0, 0, 2.1, 6.25], step=[0, 0, 0, 0.5], np=8, time=60)
+
+Wed Sep 24 14:17:12 2014: schkl(start=[0, 0, 2.05, 3.63], step=[0, 0, 0.01, 0], np=11, time=60)
+
+Wed Sep 24 14:31:24 2014: schkl(start=[0, 0, 2.07, 6.25], step=[0, 0, 0.01, 0], np=7, time=60)
+
+Wed Sep 24 14:45:55 2014: schkl(start=[0, 0, 2.07, 1], step=[0, 0, 0, 0.25], np=21, time=180)
+
+Wed Sep 24 16:21:42 2014: schkl(start=[1, 1, 1.07, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 16:25:16 2014: schkl(start=[0, 0, -2.07, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 16:32:34 2014: schkl(start=[0, 0, 1.93, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 16:36:59 2014: schkl(start=[0, 0, 1.93, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 16:43:13 2014: schkl(start=[0, 0, 1.93, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 16:54:38 2014: schkl(start=[0, 0, 1.93, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 17:45:00 2014: schkl(start=[0, 0, 1.95, 0], step=[0, 0, 0.01, 0], np=11, time=1)
+
+Wed Sep 24 17:49:53 2014: schkl(start=[0, 0, 2.07, -1], step=[0, 0, 0, -0.25], np=21, time=60)
+
+Wed Sep 24 18:20:55 2014: schkl(start=[1, 1, 1.07, 1], step=[0, 0, 0, 0.25], np=21, time=60)
+
+Wed Sep 24 19:20:04 2014: schkl(start=[1, 1, 1.07, -1], step=[0, 0, 0, -0.25], np=18, time=120)
+
+Wed Sep 24 19:28:16 2014: schkl(start=[1, 1, 1, 2], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 19:30:36 2014: schkl(start=[1, 1, 1, 2], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 19:39:54 2014: schkl(start=[1, 1, 1, 2], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 19:47:35 2014: schkl(start=[1, 1, 1, 2], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 20:07:42 2014: schkl(start=[1, 1, 1, 3], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 20:28:41 2014: schkl(start=[1, 1, 1, 4], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 20:49:19 2014: schkl(start=[1, 1, 1.04, 5], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 21:09:48 2014: schkl(start=[1, 1, 1.04, 6], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 21:31:21 2014: schkl(start=[1, 1, 1.04, 7], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 21:52:47 2014: schkl(start=[1, 1, 1.06, 8], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 22:13:54 2014: schkl(start=[1, 1, 1.06, 9], step=[0, 0, 0.01, 0], np=8, time=120)
+
+Wed Sep 24 22:36:21 2014: schkl(start=[1, 1, 1.07, -1], step=[0, 0, 0, -0.25], np=18, time=120)
+
+Wed Sep 24 23:51:03 2014: schkl(start=[0, 0, -2.07, 1], step=[0, 0, 0, 0.25], np=18, time=120)

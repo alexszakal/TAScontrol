@@ -1,0 +1,42 @@
+
+Fri Oct 24 00:01:42 2014: schkl(start=[1.05, 1.05, 1.05, -8], step=[0, 0, 0, 0.2], np=81, time=60)
+
+Fri Oct 24 03:00:44 2014: schkl(start=[0.95, 0.95, 0.95, -8], step=[0, 0, 0, 0.2], np=81, time=60)
+
+Fri Oct 24 06:00:55 2014: schkl(start=[0.95, 0.95, 1.05, -8], step=[0, 0, 0, 0.2], np=81, time=60)
+
+Fri Oct 24 08:56:40 2014: schkl(start=[1.05, 1.05, 0.95, -8], step=[0, 0, 0, 0.2], np=81, time=60)
+Fri Oct 24 11:22:53 2014: move(axis=SRV35, targetPos=49.5
+Fri Oct 24 11:25:15 2014: move(axis=SRV35, targetPos=47.94
+
+Fri Oct 24 11:29:06 2014: schkl(start=[0, 0, 1.9, 0], step=[0, 0, 0, -0.2], np=41, time=75)
+
+Fri Oct 24 12:45:59 2014: schkl(start=[0, 0, 1.9, -4.8], step=[0, 0, 0, -0.2], np=13, time=180)
+
+Fri Oct 24 13:35:30 2014: schkl(start=[0.1, 0.1, 2, 2.75], step=[0, 0, 0, -0.25], np=17, time=120)
+
+Fri Oct 24 13:39:44 2014: schkl(start=[0.1, 0.1, 2, 2.75], step=[0, 0, 0, 0.25], np=17, time=120)
+
+Fri Oct 24 14:38:28 2014: schkl(start=[0.1, 0.1, 2, -2.75], step=[0, 0, 0, -0.25], np=17, time=120)
+Fri Oct 24 15:53:51 2014: move(axis=SRV34, targetPos=-67.6
+Fri Oct 24 15:54:25 2014: move(axis=STP25, targetPos=39.66
+Fri Oct 24 15:54:52 2014: move(axis=SRV35, targetPos=100.67
+Fri Oct 24 15:59:45 2014: move(axis=STP13, targetPos=230
+Fri Oct 24 16:01:30 2014: move(axis=STP11, targetPos=43
+Fri Oct 24 16:03:24 2014: move(axis=STP11, targetPos=0
+Fri Oct 24 16:08:51 2014: move(axis=li, targetPos=2.2
+Fri Oct 24 16:14:00 2014: move(axis=STP1, targetPos=1200
+
+Fri Oct 24 16:25:17 2014: schkl(start=[1.95, 1.95, 0, 0], step=[0.0125, 0.0125, 0, -0.25], np=9, time=5)
+
+Fri Oct 24 16:30:58 2014: schkl(start=[1.95, 1.95, 0, 0], step=[0.0125, 0.0125, 0, 0], np=9, time=5)
+
+Fri Oct 24 16:40:08 2014: schkl(start=[2, 2, 0, -1], step=[0, 0, 0, 0.25], np=9, time=5)
+
+Fri Oct 24 17:04:55 2014: schkl(start=[1.95, 1.95, 0, -5], step=[0, 0, 0, -0.25], np=37, time=90)
+
+Fri Oct 24 18:33:45 2014: schkl(start=[2.05, 2.05, 0, -5], step=[0, 0, 0, -0.25], np=37, time=90)
+
+Fri Oct 24 20:02:29 2014: schkl(start=[2, 2, 0.1, -6], step=[0, 0, 0, 0.25], np=49, time=90)
+
+Fri Oct 24 22:20:36 2014: schkl(start=[2, 2, -0.1, -6], step=[0, 0, 0, 0.25], np=49, time=90)

@@ -1,0 +1,13 @@
+#CNTAS Song Wed Sep 24 14:05:27 2014 
+#USER: Song 
+#DATE: Wed Sep 24 14:05:27 2014 
+#TITLE: FAT Test measurement 
+#CMD: schkl(start=[0, 0, 2.1, 6.25], step=[0, 0, 0, 0.5], np=8, time=60)
+#STEPS: EN = 0.5  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  4.055 B=  4.055 C=  4.055
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=0.000 K1=0.000 L1=2.000
+#PVEC2: H2=1.000 K2=1.000 L2=1.000
+#ANGLES: 

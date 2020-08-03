@@ -1,0 +1,111 @@
+Fri Sep 19 09:05:18 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 09:06:08 2014: move(axis=SRV35, targetPos=-41.83
+Fri Sep 19 09:12:38 2014: move(axis=SRV35, targetPos=-115
+Fri Sep 19 09:21:18 2014: move(axis=SRV34, targetPos=-70
+Fri Sep 19 09:24:44 2014: move(axis=SRV34, targetPos=-46
+Fri Sep 19 09:25:51 2014: move(axis=SRV35, targetPos=-128
+Fri Sep 19 09:32:40 2014: move(axis=SRV35, targetPos=-100
+Fri Sep 19 09:39:30 2014: move(axis=SRV35, targetPos=-80
+Fri Sep 19 09:42:59 2014: move(axis=SRV35, targetPos=-60
+Fri Sep 19 09:45:04 2014: move(axis=SRV35, targetPos=-41.828
+Fri Sep 19 09:48:18 2014: move(axis=SRV34, targetPos=-72
+Fri Sep 19 09:56:38 2014: move(axis=STP25, targetPos=-72
+Fri Sep 19 09:56:55 2014: move(axis=STP25, targetPos=-71
+Fri Sep 19 09:59:49 2014: move(axis=STP25, targetPos=-72
+Fri Sep 19 10:00:22 2014: move(axis=STP25, targetPos=-72
+Fri Sep 19 10:01:52 2014: move(axis=STP25, targetPos=-69.79
+Fri Sep 19 10:03:08 2014: move(axis=SRV35, targetPos=-41.83
+Fri Sep 19 10:06:45 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:06:50 2014: move(axis=SRV35, targetPos=-41.83
+Fri Sep 19 10:08:16 2014: cscan(axis=detang, amplitude=1, step=0.5, time=5)
+
+Fri Sep 19 10:13:08 2014: scan(axis=detang, start=42.33, step=0.5, end=42.83, time=5)
+
+Fri Sep 19 10:14:06 2014: scan(axis=detang, start=-42.33, step=0.5, end=-42.83, time=5)
+Fri Sep 19 10:16:38 2014: move(axis=SRV35, targetPos=-41.83
+Fri Sep 19 10:17:38 2014: cscan(axis=ath, amplitude=1, step=0.5, time=1)
+Fri Sep 19 10:19:47 2014: move(axis=STP25, targetPos=-69.59
+Fri Sep 19 10:20:17 2014: cscan(axis=ath, amplitude=0.5, step=0.1, time=1)
+Fri Sep 19 10:22:55 2014: move(axis=STP25, targetPos=-69.79
+Fri Sep 19 10:23:27 2014: cscan(axis=detang, amplitude=0.5, step=0.2, time=1)
+Fri Sep 19 10:29:32 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:29:53 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:31:59 2014: cscan(axis=ath, amplitude=0.5, step=0.2, time=10)
+Fri Sep 19 10:34:48 2014: move(axis=SRV35, targetPos=-41.73
+Fri Sep 19 10:35:08 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:35:18 2014: cscan(axis=ath, amplitude=0.5, step=0.2, time=10)
+Fri Sep 19 10:38:06 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:38:25 2014: cscan(axis=ath, amplitude=-0.2, step=0.2, time=10)
+Fri Sep 19 10:40:10 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:40:35 2014: cscan(axis=ath, amplitude=0.2, step=0.2, time=1)
+Fri Sep 19 10:42:48 2014: move(axis=SRV35, targetPos=-41.83
+Fri Sep 19 10:43:18 2014: move(axis=STP25, targetPos=-69.09
+Fri Sep 19 10:43:27 2014: cscan(axis=ath, amplitude=0.2, step=0.2, time=1)
+Fri Sep 19 10:48:09 2014: move(axis=STP25, targetPos=69.09
+Fri Sep 19 10:49:05 2014: move(axis=SRV35, targetPos=41.83
+Fri Sep 19 10:56:51 2014: move(axis=STP25, targetPos=72.5
+Fri Sep 19 10:57:11 2014: move(axis=SRV35, targetPos=36
+
+Fri Sep 19 11:00:55 2014: schkl(start=[0, 0, 2, -2], step=[0, 0, 0, 0.2], np=58, time=300)
+Fri Sep 19 11:15:01 2014: move(axis=STP7, targetPos=20
+Fri Sep 19 11:15:12 2014: move(axis=STP7, targetPos=20
+Fri Sep 19 11:17:41 2014: move(axis=STP7, targetPos=20
+Fri Sep 19 11:27:49 2014: move(axis=STP25, targetPos=69.09
+Fri Sep 19 11:27:54 2014: move(axis=STP25, targetPos=69.09
+Fri Sep 19 11:29:21 2014: move(axis=STP4, targetPos=20.91
+Fri Sep 19 11:29:44 2014: move(axis=SRV32, targetPos=41.83
+Fri Sep 19 11:30:08 2014: move(axis=SRV34, targetPos=-53.39
+Fri Sep 19 11:30:36 2014: move(axis=STP25, targetPos=69.09
+Fri Sep 19 11:30:58 2014: move(axis=SRV35, targetPos=41.83
+Fri Sep 19 11:32:56 2014: move(axis=SRV34, targetPos=-53.3
+Fri Sep 19 11:34:31 2014: move(axis=SRV34, targetPos=-55.3
+
+Fri Sep 19 11:36:46 2014: scan(axis=s1X, start=15, step=1, end=5, time=10)
+
+Fri Sep 19 11:40:42 2014: scan(axis=s1X, start=4, step=1, end=1, time=10)
+Fri Sep 19 11:42:25 2014: move(axis=STP7, targetPos=5
+
+Fri Sep 19 11:43:31 2014: scan(axis=s1U, start=85, step=5, end=45, time=10)
+
+Fri Sep 19 11:44:43 2014: scan(axis=s1U, start=85, step=5, end=100, time=10)
+Fri Sep 19 11:45:48 2014: move(axis=STP10, targetPos=85
+Fri Sep 19 11:49:15 2014: cscan(axis=om, amplitude=1, step=1, time=1)
+Fri Sep 19 11:50:44 2014: move(axis=SRV34, targetPos=-64.84
+Fri Sep 19 11:51:33 2014: move(axis=SRV35, targetPos=68.99
+Fri Sep 19 11:54:35 2014: move(axis=STP25, targetPos=55.5
+Fri Sep 19 11:59:55 2014: move(axis=STP7, targetPos=32.05
+Fri Sep 19 12:02:06 2014: move(axis=STP10, targetPos=142.72
+Fri Sep 19 12:03:13 2014: move(axis=STP25, targetPos=70.34
+Fri Sep 19 12:03:34 2014: move(axis=SRV35, targetPos=39.06
+
+Fri Sep 19 12:08:09 2014: schkl(start=[0, 0, 2, -2], step=[0, 0, 0, 0.2], np=47, time=250)
+
+Fri Sep 19 12:09:51 2014: schkl(start=[0, 0, 2, -2], step=[0, 0, 0, 0.2], np=47, time=150)
+
+Fri Sep 19 12:10:29 2014: schkl(start=[0, 0, 2, -2], step=[0, 0, 0, 0.2], np=67, time=150)
+Fri Sep 19 12:18:41 2014: move(axis=STP25, targetPos=69.09
+Fri Sep 19 12:19:02 2014: move(axis=SRV35, targetPos=41.83
+
+Fri Sep 19 12:21:46 2014: scan(axis=s2th, start=-60, step=1, end=-100, time=70)
+
+Fri Sep 19 12:28:59 2014: scan(axis=s2th, start=-60, step=1, end=-100, time=30)
+Fri Sep 19 13:11:10 2014: move(axis=STP7, targetPos=5
+Fri Sep 19 13:11:46 2014: move(axis=STP10, targetPos=85
+
+Fri Sep 19 13:13:11 2014: scan(axis=s2th, start=-100, step=1, end=-96, time=30)
+Fri Sep 19 13:18:47 2014: move(axis=STP7, targetPos=6
+Fri Sep 19 13:19:56 2014: move(axis=STP13, targetPos=298.91
+Fri Sep 19 13:20:14 2014: move(axis=SRV34, targetPos=-53.22
+Fri Sep 19 13:24:12 2014: move(axis=SRV35, targetPos=38
+
+Fri Sep 19 13:27:22 2014: schkl(start=[0, 0, 2.5, -2], step=[0, 0, 0, 0.2], np=50, time=100)
+Fri Sep 19 15:09:00 2014: move(axis=STP13, targetPos=290.46
+Fri Sep 19 15:09:22 2014: move(axis=SRV34, targetPos=-68.16
+Fri Sep 19 15:10:01 2014: move(axis=STP25, targetPos=70.47
+Fri Sep 19 15:10:15 2014: move(axis=SRV35, targetPos=39.06
+
+Fri Sep 19 15:14:48 2014: schkl(start=[0, 0, 2.5, -2], step=[0, 0, 0, 0.2], np=50, time=100)
+Fri Sep 19 15:33:24 2014: move(axis=SRV35, targetPos=50
+Fri Sep 19 16:04:22 2014: cscan(axis=ath, amplitude=1, step=0.5, time=10)
+Fri Sep 19 18:23:13 2014: cscan(axis=om, amplitude=1, step=0.5, time=1)
+Fri Sep 19 18:26:10 2014: cscan(axis=ath, amplitude=1, step=0.5, time=1)

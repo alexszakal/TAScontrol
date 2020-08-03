@@ -1,0 +1,152 @@
+
+Sun Jul 20 01:49:05 2014: schkl(start=[0, 0, 1.9, 4.5], step=[0, 0, 0, 0.1], np=41, time=180)
+
+Sun Jul 20 04:41:07 2014: schkl(start=[0.1, 0.1, 2.1, 3.3], step=[0, 0, 0, 0.1], np=41, time=180)
+
+Sun Jul 20 07:20:35 2014: schkl(start=[-0.1, -0.1, 1.9, 3.3], step=[0, 0, 0, 0.1], np=41, time=180)
+Sun Jul 20 09:36:54 2014: move(axis=STP15, targetPos=0
+Sun Jul 20 09:37:24 2014: move(axis=STP14, targetPos=0
+Sun Jul 20 09:45:29 2014: move(axis=STP15, targetPos=5
+Sun Jul 20 09:46:23 2014: move(axis=STP15, targetPos=-3
+Sun Jul 20 09:47:20 2014: move(axis=STP14, targetPos=0
+Sun Jul 20 09:53:04 2014: move(axis=STP14, targetPos=0
+Sun Jul 20 09:53:11 2014: move(axis=STP15, targetPos=0
+Sun Jul 20 09:53:38 2014: move(axis=SRV35, targetPos=0
+Sun Jul 20 09:57:32 2014: move(axis=STP25, targetPos=90
+Sun Jul 20 09:59:42 2014: cscan(axis=monok, amplitude=1.2, step=0.2, time=10)
+Sun Jul 20 10:08:04 2014: move(axis=li, targetPos=2.1
+Sun Jul 20 10:14:46 2014: move(axis=SRV33, targetPos=2490
+Sun Jul 20 10:16:06 2014: move(axis=STP28, targetPos=750
+Sun Jul 20 10:16:26 2014: move(axis=STP28, targetPos=750
+Sun Jul 20 10:18:48 2014: move(axis=SRV34, targetPos=15
+Sun Jul 20 10:21:50 2014: move(axis=SRV34, targetPos=30
+Sun Jul 20 10:22:44 2014: move(axis=SRV34, targetPos=40
+Sun Jul 20 10:28:17 2014: move(axis=STP1, targetPos=0
+
+Sun Jul 20 10:29:48 2014: scan(axis=li, start=2.1, step=0.1, end=5.5, time=30)
+Sun Jul 20 11:25:50 2014: cscan(axis=monok, amplitude=1.4, step=0.2, time=10)
+
+Sun Jul 20 11:36:48 2014: scan(axis=mvfoc, start=0, step=50, end=1600, time=10)
+Sun Jul 20 11:37:10 2014: move(axis=STP4, targetPos=55.08
+
+Sun Jul 20 11:37:38 2014: scan(axis=mvfoc, start=500, step=50, end=1500, time=10)
+Sun Jul 20 11:43:04 2014: move(axis=STP1, targetPos=820
+Sun Jul 20 11:44:00 2014: cscan(axis=mgL, amplitude=2.6, step=0.2, time=10)
+Sun Jul 20 11:53:30 2014: move(axis=STP5, targetPos=0.49
+Sun Jul 20 11:53:49 2014: move(axis=li, targetPos=5.1386
+Sun Jul 20 11:57:15 2014: move(axis=li, targetPos=5.1386
+Sun Jul 20 11:57:54 2014: move(axis=li, targetPos=5.1386
+Sun Jul 20 11:58:31 2014: move(axis=SRV32, targetPos=110
+Sun Jul 20 11:59:29 2014: move(axis=li, targetPos=5.1386
+Sun Jul 20 12:00:30 2014: move(axis=li, targetPos=5.1386
+
+Sun Jul 20 12:03:00 2014: scan(axis=mvfoc, start=500, step=50, end=1500, time=10)
+Sun Jul 20 12:09:57 2014: move(axis=STP1, targetPos=625
+Sun Jul 20 12:10:10 2014: cscan(axis=mgL, amplitude=2.6, step=0.2, time=10)
+Sun Jul 20 12:20:10 2014: move(axis=STP5, targetPos=0.44
+
+Sun Jul 20 12:20:48 2014: scan(axis=mvfoc, start=100, step=50, end=1200, time=10)
+Sun Jul 20 12:28:00 2014: move(axis=STP1, targetPos=625
+Sun Jul 20 12:28:37 2014: move(axis=li, targetPos=4.3118
+Sun Jul 20 12:30:09 2014: move(axis=li, targetPos=4.3118
+
+Sun Jul 20 12:30:59 2014: scan(axis=mvfoc, start=-100, step=50, end=1200, time=10)
+Sun Jul 20 12:40:59 2014: move(axis=STP1, targetPos=690
+Sun Jul 20 12:41:17 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 12:49:33 2014: move(axis=li, targetPos=3.354
+Sun Jul 20 12:51:52 2014: move(axis=STP5, targetPos=0.49
+
+Sun Jul 20 12:52:16 2014: scan(axis=mvfoc, start=200, step=50, end=1500, time=10)
+Sun Jul 20 13:02:14 2014: move(axis=STP1, targetPos=822
+Sun Jul 20 13:02:28 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 13:12:25 2014: move(axis=STP5, targetPos=0.59
+Sun Jul 20 13:12:59 2014: move(axis=li, targetPos=2.2943
+Sun Jul 20 13:15:51 2014: move(axis=li, targetPos=2.2943
+
+Sun Jul 20 13:17:32 2014: scan(axis=mvfoc, start=300, step=50, end=1700, time=10)
+Sun Jul 20 13:28:58 2014: move(axis=STP1, targetPos=1050
+Sun Jul 20 13:29:46 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 14:10:31 2014: move(axis=STP5, targetPos=0.73
+Sun Jul 20 14:29:46 2014: move(axis=STP5, targetPos=0.7
+Sun Jul 20 14:29:55 2014: move(axis=STP5, targetPos=0.73
+
+Sun Jul 20 14:30:11 2014: scan(axis=mvfoc, start=300, step=50, end=1700, time=10)
+
+Sun Jul 20 14:42:21 2014: scan(axis=mvfoc, start=1600, step=50, end=2000, time=10)
+
+Sun Jul 20 14:42:34 2014: scan(axis=mvfoc, start=1600, step=100, end=2000, time=10)
+Sun Jul 20 14:45:11 2014: move(axis=STP1, targetPos=1050
+Sun Jul 20 14:46:01 2014: cscan(axis=mgL, amplitude=2.4, step=0.3, time=10)
+Sun Jul 20 14:52:03 2014: move(axis=STP5, targetPos=0.35
+
+Sun Jul 20 14:52:37 2014: scan(axis=mvfoc, start=300, step=100, end=2000, time=10)
+Sun Jul 20 14:54:54 2014: move(axis=STP5, targetPos=0.35
+
+Sun Jul 20 14:55:04 2014: scan(axis=mvfoc, start=300, step=100, end=2000, time=10)
+Sun Jul 20 15:02:18 2014: move(axis=STP1, targetPos=1050
+Sun Jul 20 15:03:02 2014: move(axis=SRV33, targetPos=3000
+
+Sun Jul 20 15:08:23 2014: scan(axis=mgL, start=-1.6, step=0.3, end=1.6, time=10)
+Sun Jul 20 15:12:59 2014: move(axis=STP5, targetPos=0.32
+
+Sun Jul 20 15:13:52 2014: scan(axis=mvfoc, start=100, step=100, end=1500, time=10)
+Sun Jul 20 15:21:56 2014: move(axis=STP1, targetPos=950
+
+Sun Jul 20 15:22:04 2014: scan(axis=mgL, start=-1.6, step=0.3, end=1.6, time=10)
+Sun Jul 20 15:28:46 2014: move(axis=SRV33, targetPos=2500
+Sun Jul 20 15:33:00 2014: move(axis=SRV33, targetPos=2100
+
+Sun Jul 20 15:36:48 2014: scan(axis=mvfoc, start=300, step=100, end=2000, time=10)
+
+Sun Jul 20 15:44:04 2014: scan(axis=mvfoc, start=300, step=100, end=2000, time=10)
+Sun Jul 20 15:50:21 2014: move(axis=SRV33, targetPos=2300
+Sun Jul 20 15:52:41 2014: move(axis=SRV33, targetPos=2100
+Sun Jul 20 15:55:02 2014: move(axis=STP5, targetPos=0.32
+Sun Jul 20 15:55:12 2014: move(axis=STP5, targetPos=0.35
+Sun Jul 20 15:55:36 2014: move(axis=STP1, targetPos=1150
+
+Sun Jul 20 15:55:50 2014: scan(axis=mgL, start=-1.6, step=0.3, end=1.6, time=10)
+Sun Jul 20 16:04:20 2014: move(axis=li, targetPos=4.3118
+
+Sun Jul 20 16:09:07 2014: scan(axis=mvfoc, start=0, step=100, end=1500, time=10)
+Sun Jul 20 16:09:24 2014: move(axis=STP5, targetPos=0.4
+Sun Jul 20 16:09:38 2014: move(axis=STP5, targetPos=0.5
+Sun Jul 20 16:11:36 2014: move(axis=STP1, targetPos=811
+Sun Jul 20 16:11:46 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 16:19:25 2014: move(axis=SRV33, targetPos=2490
+Sun Jul 20 16:23:21 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 16:27:07 2014: move(axis=STP1, targetPos=690
+Sun Jul 20 16:27:34 2014: move(axis=STP5, targetPos=0.2
+Sun Jul 20 16:27:47 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 16:35:56 2014: move(axis=SRV33, targetPos=2956
+Sun Jul 20 16:43:38 2014: move(axis=STP1, targetPos=655
+Sun Jul 20 16:43:54 2014: move(axis=STP5, targetPos=0.25
+Sun Jul 20 16:44:06 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 16:53:24 2014: move(axis=STP5, targetPos=0.23
+Sun Jul 20 16:54:03 2014: move(axis=li, targetPos=5.8093
+
+Sun Jul 20 16:57:27 2014: scan(axis=mvfoc, start=-200, step=100, end=1500, time=10)
+
+Sun Jul 20 16:59:21 2014: scan(axis=mvfoc, start=0, step=100, end=1500, time=10)
+
+Sun Jul 20 16:59:50 2014: scan(axis=mvfoc, start=0, step=100, end=1500, time=10)
+Sun Jul 20 17:06:14 2014: move(axis=STP1, targetPos=544
+Sun Jul 20 17:06:21 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 17:14:04 2014: move(axis=SRV33, targetPos=2100
+Sun Jul 20 17:21:14 2014: move(axis=SRV33, targetPos=2100
+Sun Jul 20 17:23:12 2014: move(axis=STP1, targetPos=666
+Sun Jul 20 17:23:20 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 17:23:38 2014: move(axis=STP5, targetPos=0.2
+Sun Jul 20 17:23:47 2014: cscan(axis=mgL, amplitude=3, step=0.3, time=10)
+Sun Jul 20 17:30:19 2014: move(axis=SRV32, targetPos=39
+Sun Jul 20 17:36:56 2014: move(axis=SRV32, targetPos=40
+Sun Jul 20 17:40:56 2014: move(axis=STP1, targetPos=1166
+
+Sun Jul 20 17:43:42 2014: scan(axis=mgL, start=-1.6, step=0.3, end=1.6, time=10)
+Sun Jul 20 17:46:56 2014: move(axis=STP4, targetPos=20
+
+Sun Jul 20 17:47:26 2014: scan(axis=mgL, start=-1.6, step=0.3, end=1.6, time=10)
+Sun Jul 20 17:53:21 2014: move(axis=STP5, targetPos=0.2
+Sun Jul 20 17:55:12 2014: move(axis=STP5, targetPos=0.36
+Sun Jul 20 17:55:26 2014: move(axis=SRV33, targetPos=3000
+Sun Jul 20 17:58:29 2014: move(axis=SRV33, targetPos=3000

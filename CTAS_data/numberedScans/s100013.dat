@@ -1,0 +1,7 @@
+#CNTAS song Tue Jul  8 10:33:05 2014 
+#USER: song 
+#DATE: Tue Jul  8 10:33:05 2014 
+#TITLE: Al_test 
+#CMD: 
+schkl(start=(0, 0, 1, 0), step=(0, 0, 0, 0.1), np=20, time=3)
+#STEPS: 

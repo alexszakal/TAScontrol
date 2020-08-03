@@ -1,0 +1,295 @@
+Thu Jul 10 13:25:37 2014: move(axis=STP7, targetPos=25
+Thu Jul 10 13:26:31 2014: move(axis=STP7, targetPos=25
+Thu Jul 10 13:30:12 2014: move(axis=SRV35, targetPos=0
+Thu Jul 10 13:31:46 2014: move(axis=SRV35, targetPos=-140
+Thu Jul 10 13:34:53 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 13:41:11 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 13:41:36 2014: move(axis=STP21, targetPos=6
+Thu Jul 10 13:42:07 2014: move(axis=STP21, targetPos=10
+Thu Jul 10 13:45:06 2014: move(axis=STP21, targetPos=9
+Thu Jul 10 13:54:16 2014: move(axis=STP21, targetPos=12
+Thu Jul 10 13:55:23 2014: move(axis=STP21, targetPos=13
+Thu Jul 10 13:59:29 2014: move(axis=STP21, targetPos=11.5
+Thu Jul 10 14:00:11 2014: move(axis=STP22, targetPos=100
+Thu Jul 10 14:00:39 2014: move(axis=STP22, targetPos=100
+Thu Jul 10 14:01:40 2014: move(axis=STP22, targetPos=200
+Thu Jul 10 14:01:49 2014: move(axis=STP22, targetPos=150
+Thu Jul 10 14:02:29 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:02:49 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:04:09 2014: move(axis=STP21, targetPos=0
+Thu Jul 10 14:04:15 2014: move(axis=STP21, targetPos=1
+Thu Jul 10 14:05:14 2014: move(axis=STP21, targetPos=2
+Thu Jul 10 14:07:37 2014: move(axis=STP21, targetPos=8
+Thu Jul 10 14:08:20 2014: move(axis=STP21, targetPos=2
+Thu Jul 10 14:08:50 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:08:53 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:08:56 2014: move(axis=STP21, targetPos=2
+Thu Jul 10 14:08:59 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:10:05 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:11:10 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 14:11:13 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:12:18 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:12:22 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 14:12:30 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:12:33 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:12:36 2014: move(axis=STP21, targetPos=4
+Thu Jul 10 14:12:40 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:12:43 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:12:46 2014: move(axis=STP21, targetPos=4
+Thu Jul 10 14:12:49 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:12:53 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:13:58 2014: move(axis=STP21, targetPos=5
+Thu Jul 10 14:14:01 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:14:11 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:14:14 2014: move(axis=STP21, targetPos=5
+Thu Jul 10 14:14:18 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:14:21 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:14:24 2014: move(axis=STP21, targetPos=6
+Thu Jul 10 14:14:41 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:14:44 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:14:47 2014: move(axis=STP21, targetPos=6
+Thu Jul 10 14:14:50 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:14:54 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:14:57 2014: move(axis=STP21, targetPos=7
+Thu Jul 10 14:15:00 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:15:04 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:15:07 2014: move(axis=STP21, targetPos=7
+Thu Jul 10 14:15:15 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:15:18 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:15:22 2014: move(axis=STP21, targetPos=8
+Thu Jul 10 14:15:25 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:15:28 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:15:32 2014: move(axis=STP21, targetPos=8
+Thu Jul 10 14:15:35 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:15:38 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:15:42 2014: move(axis=STP21, targetPos=9
+Thu Jul 10 14:15:54 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:15:57 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:16:00 2014: move(axis=STP21, targetPos=9
+Thu Jul 10 14:16:03 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:16:07 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:16:10 2014: move(axis=STP21, targetPos=10
+Thu Jul 10 14:16:13 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:16:17 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:16:20 2014: move(axis=STP21, targetPos=10
+Thu Jul 10 14:16:28 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:16:31 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:16:35 2014: move(axis=STP21, targetPos=11
+Thu Jul 10 14:16:38 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:16:41 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:16:45 2014: move(axis=STP21, targetPos=11
+Thu Jul 10 14:16:48 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:16:51 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:16:54 2014: move(axis=STP21, targetPos=12
+Thu Jul 10 14:17:07 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:17:10 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:17:14 2014: move(axis=STP21, targetPos=12
+Thu Jul 10 14:17:17 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:17:20 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:17:23 2014: move(axis=STP21, targetPos=13
+Thu Jul 10 14:17:27 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:17:30 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:17:33 2014: move(axis=STP21, targetPos=13
+Thu Jul 10 14:17:42 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:17:45 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:17:48 2014: move(axis=STP21, targetPos=14
+Thu Jul 10 14:17:51 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:17:55 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:17:58 2014: move(axis=STP21, targetPos=14
+Thu Jul 10 14:18:01 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:05 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:08 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:11 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:15 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:18 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:21 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:24 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:28 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:31 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:34 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:38 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:41 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:44 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:48 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:51 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:18:54 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:18:57 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:19:01 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:19:04 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:19:07 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:19:11 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:19:14 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:19:17 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:19:21 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:19:24 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:31:53 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:32:03 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 14:32:22 2014: move(axis=STP22, targetPos=20
+Thu Jul 10 14:32:36 2014: move(axis=STP22, targetPos=20
+Thu Jul 10 14:40:10 2014: move(axis=STP21, targetPos=11.5
+Thu Jul 10 14:41:36 2014: move(axis=STP22, targetPos=160
+Thu Jul 10 14:43:29 2014: move(axis=STP13, targetPos=90
+Thu Jul 10 14:50:30 2014: move(axis=li, targetPos=4.7
+Thu Jul 10 14:50:30 2014: move(axis=ki, targetPos=1.3368479377
+Thu Jul 10 14:50:30 2014: move(axis=STP4, targetPos=44.4796533319
+Thu Jul 10 14:53:27 2014: move(axis=li, targetPos=4.7
+Thu Jul 10 14:53:27 2014: move(axis=ki, targetPos=1.3368479377
+Thu Jul 10 14:53:27 2014: move(axis=STP4, targetPos=44.4796533319
+Thu Jul 10 14:53:30 2014: move(axis=SRV32, targetPos=88.9593066638
+Thu Jul 10 14:54:58 2014: move(axis=STP4, targetPos=41
+Thu Jul 10 14:57:05 2014: move(axis=STP4, targetPos=43
+Thu Jul 10 14:57:12 2014: move(axis=STP4, targetPos=43
+Thu Jul 10 15:00:28 2014: move(axis=STP4, targetPos=44.21
+Thu Jul 10 15:01:01 2014: move(axis=SRV32, targetPos=88.42
+Thu Jul 10 15:58:28 2014: move(axis=STP22, targetPos=0
+Thu Jul 10 16:00:07 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 16:00:47 2014: move(axis=STP21, targetPos=4
+Thu Jul 10 16:00:50 2014: move(axis=STP21, targetPos=5
+Thu Jul 10 16:26:05 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 16:26:25 2014: move(axis=STP21, targetPos=4
+Thu Jul 10 16:26:42 2014: move(axis=STP21, targetPos=5
+Thu Jul 10 16:27:29 2014: move(axis=STP21, targetPos=11.5
+Thu Jul 10 16:29:21 2014: move(axis=STP21, targetPos=3
+Thu Jul 10 16:30:17 2014: move(axis=STP21, targetPos=11.5
+Thu Jul 10 16:31:25 2014: move(axis=STP22, targetPos=150
+Thu Jul 10 16:41:42 2014: move(axis=STP13, targetPos=90
+Thu Jul 10 16:41:58 2014: move(axis=STP13, targetPos=140
+Thu Jul 10 16:42:31 2014: move(axis=STP13, targetPos=90
+Thu Jul 10 16:57:45 2014: move(axis=STP29, targetPos=900
+
+Thu Jul 10 17:07:34 2014: scan(axis=monok, start=40, step=0.2, end=45, time=10)
+40 0 0 0.0 0
+
+
+Thu Jul 10 17:11:04 2014: scan(axis=monok, start=21, step=0.1, end=22, time=10)
+     21.00       4000     4000.0    10000.0      10001      1.000      0.022
+
+     21.10       4000     4000.0    10000.0      10002      1.000      0.022
+
+Thu Jul 10 17:15:07 2014: move(axis=STP4, targetPos=41
+Thu Jul 10 17:17:00 2014: move(axis=STP4, targetPos=41
+Thu Jul 10 17:18:25 2014: move(axis=STP4, targetPos=40
+
+Thu Jul 10 17:18:52 2014: scan(axis=monok, start=40, step=0.2, end=45, time=10)
+40 0 0 0.0 0
+
+     40.20         12     4000.0    10000.0     101236      0.003      0.001
+
+     40.40         15     4000.0    10000.0     101237      0.004      0.001
+
+     40.60         13     4000.0     8972.0     101238      0.003      0.001
+
+     40.80         14     4000.0    10000.0     101239      0.004      0.001
+
+     41.00         17     4000.0    10000.0     101240      0.004      0.001
+
+     41.20         18     4000.0     9921.0     101241      0.004      0.001
+
+     41.40         29     4000.0    10000.0     101242      0.007      0.001
+
+     41.60         45     4000.0     9944.0     101243      0.011      0.002
+
+     41.80         41     4000.0     8911.0     101244      0.010      0.002
+
+     42.00         47     4000.0     8961.0     101245      0.012      0.002
+
+     42.20         83     4000.0    10005.0     101246      0.021      0.002
+
+     42.40        110     4000.0    10000.0     101247      0.028      0.003
+
+     42.60        135     4000.0    10006.0     101248      0.034      0.003
+
+     42.80        167     4000.0    10000.0     101249      0.042      0.003
+
+     43.00        256     4000.0    10000.0     101250      0.064      0.004
+
+     43.20        480     4000.0    10000.0     101251      0.120      0.006
+
+     43.40        676     4000.0    10000.0     101252      0.169      0.007
+
+     43.60        843     4000.0    10000.0     101253      0.211      0.008
+
+     43.80        708     4000.0     8950.0     101254      0.177      0.007
+
+     44.00        587     4000.0    10000.0     101255      0.147      0.006
+
+     44.20        337     4000.0     8956.0     101256      0.084      0.005
+
+     44.40        250     4000.0     9953.0     101257      0.062      0.004
+
+     44.60        157     4000.0     8853.0     101258      0.039      0.003
+
+     44.80        151     4000.0    10000.0     101259      0.038      0.003
+
+     45.00         89     4000.0    10000.0     101260      0.022      0.002
+
+
+Thu Jul 10 17:33:06 2014: scan(axis=monok, start=42, step=0.2, end=45, time=10)
+
+Thu Jul 10 17:34:12 2014: scan(axis=monok, start=42, step=0.2, end=45, time=10)
+
+Thu Jul 10 17:53:50 2014: scan(axis=monok, start=42, step=0.2, end=45, time=5)
+42 0 0 0.0 0
+
+     42.20         34       11.0     4383.0     101273      3.091      1.072
+
+42.4 0 0 0.0 0
+
+42.6 0 0 0.0 0
+
+     42.80         79       19.0     4473.0     101276      4.158      1.062
+
+     43.00        145       30.0     5000.0     101277      4.833      0.969
+
+     43.20        201       64.0     4859.0     101278      3.141      0.451
+
+     43.40        326       74.0     4923.0     101279      4.405      0.567
+
+     43.60        407       83.0     5000.0     101280      4.904      0.591
+
+     43.80        388       95.0     5000.0     101281      4.084      0.468
+
+     44.00        302       74.0     5000.0     101282      4.081      0.529
+
+     44.20        196       47.0     5000.0     101283      4.170      0.677
+
+     44.40        126       36.0     5000.0     101284      3.500      0.661
+
+     44.60         97       34.0     5000.0     101285      2.853      0.569
+
+     44.80         56       11.0     4501.0     101286      5.091      1.679
+
+     45.00         46       18.0     4849.0     101287      2.556      0.710
+
+Thu Jul 10 19:38:53 2014: move(axis=STP4, targetPos=43.6
+Thu Jul 10 19:42:10 2014: move(axis=STP13, targetPos=260
+Thu Jul 10 19:42:46 2014: move(axis=STP13, targetPos=260
+Thu Jul 10 20:19:39 2014: move(axis=SRV34, targetPos=46
+Thu Jul 10 20:38:16 2014: move(axis=SRV34, targetPos=47
+Thu Jul 10 20:55:15 2014: move(axis=STP13, targetPos=170
+Thu Jul 10 20:57:03 2014: move(axis=STP13, targetPos=150
+Thu Jul 10 21:05:03 2014: move(axis=STP13, targetPos=180
+
+Thu Jul 10 21:12:05 2014: scan(axis=monok, start=43, step=0.1, end=44.4, time=10)
+43 0 0 0.0 0
+
+43.1 0 45 10003.0 101342
+
+43.2 0 0 0.0 0
+
+43.3 0 74 10004.0 101344
+
+43.4 0 95 10004.0 101345
+
+43.5 0 133 10002.0 101346
+
+43.6 0 146 10000.0 101347
+
+43.7 0 144 10003.0 101348
+
+43.8 0 142 10004.0 101349
+
+43.9 0 133 10002.0 101350
+
+44.0 0 115 10000.0 101351
+

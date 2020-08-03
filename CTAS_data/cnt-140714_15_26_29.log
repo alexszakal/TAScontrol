@@ -1,0 +1,35 @@
+#CNTAS song Mon Jul 14 15:26:29 2014 
+#USER: song 
+#DATE: Mon Jul 14 15:26:29 2014 
+#TITLE: Al_test 
+#CMD: schkl(start=[2, 0, 0, 0], step=[0, 0, 0, 0.1], np=5, time=5)
+#STEPS: EN = 0.1  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  3.864 B=  3.864 C=  11.73
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=2.000 K1=0.000 L1=0.000
+#PVEC2: H2=0.000 K2=0.000 L2=4.000
+#ANGLES:       monok=   21.45       monho=   42.90          om=   37.97 
+#ANGLES:        s2th=   78.79         ath=  -68.55      detang=   42.90 
+#ANGLES:         sgU=   -2.41         sgL=    3.49       mvfoc=    0.00 
+#ANGLES:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ANGLES:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ANGLES:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ANGLES:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ANGLES:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ANGLES:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ANGLES:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ANGLES:     anShRot=    0.00    anShLift=    0.00 
+#ZEROS:       monok=    0.00       monho=    0.00          om=    0.00 
+#ZEROS:        s2th=    0.00         ath=    0.00      detang=    1.50 
+#ZEROS:         sgU=    0.00         sgL=    0.00       mvfoc=    0.00 
+#ZEROS:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ZEROS:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ZEROS:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ZEROS:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ZEROS:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ZEROS:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ZEROS:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00 #DATA:
+#  H       K       L       EN      MON     TIME     CNT    SEQ.NUM   A1     A2     A3     A4     A5     A6     SGL    SGU

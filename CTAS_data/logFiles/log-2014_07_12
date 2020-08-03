@@ -1,0 +1,11 @@
+
+Sat Jul 12 08:56:58 2014: scan(axis=monok, start=42.6, step=0.1, end=44.6, time=5)
+Sat Jul 12 08:57:57 2014: move(axis=STP4, targetPos=22.45
+Sat Jul 12 09:11:12 2014: move(axis=SRV34, targetPos=90
+
+Sat Jul 12 09:16:32 2014: scan(axis=mgL, start=-2.1, step=0.3, end=2.7, time=10)
+Sat Jul 12 14:47:47 2014: move(axis=STP13, targetPos=100
+Sat Jul 12 14:53:38 2014: move(axis=STP4, targetPos=40
+Sat Jul 12 15:56:03 2014: move(axis=STP4, targetPos=50
+Sat Jul 12 15:59:20 2014: move(axis=STP4, targetPos=50
+Sat Jul 12 16:09:10 2014: move(axis=STP13, targetPos=55

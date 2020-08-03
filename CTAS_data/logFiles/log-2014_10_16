@@ -1,0 +1,58 @@
+Thu Oct 16 21:39:42 2014: move(axis=STP28, targetPos=800
+Thu Oct 16 21:40:17 2014: move(axis=STP28, targetPos=1000
+Thu Oct 16 21:42:27 2014: move(axis=SRV35, targetPos=41.83
+Thu Oct 16 21:45:52 2014: move(axis=STP1, targetPos=1090
+Thu Oct 16 21:46:34 2014: move(axis=SRV32, targetPos=41.83
+Thu Oct 16 21:47:19 2014: move(axis=STP7, targetPos=30
+Thu Oct 16 21:47:57 2014: move(axis=STP10, targetPos=140
+Thu Oct 16 21:52:38 2014: move(axis=STP24, targetPos=-12
+Thu Oct 16 21:53:15 2014: move(axis=STP25, targetPos=88
+Thu Oct 16 21:53:40 2014: move(axis=SRV35, targetPos=0
+Thu Oct 16 21:59:05 2014: move(axis=STP28, targetPos=650
+Thu Oct 16 22:01:48 2014: move(axis=STP28, targetPos=1000
+Thu Oct 16 22:04:42 2014: move(axis=STP4, targetPos=18
+Thu Oct 16 22:04:59 2014: move(axis=SRV32, targetPos=36
+Thu Oct 16 22:08:01 2014: move(axis=STP25, targetPos=72
+Thu Oct 16 22:08:20 2014: move(axis=SRV35, targetPos=36
+Thu Oct 16 22:11:45 2014: move(axis=STP24, targetPos=0
+Thu Oct 16 22:13:01 2014: move(axis=SRV35, targetPos=0
+Thu Oct 16 22:16:26 2014: move(axis=STP24, targetPos=-12
+Thu Oct 16 22:16:46 2014: move(axis=STP25, targetPos=89.8
+Thu Oct 16 22:17:33 2014: move(axis=STP1, targetPos=600
+
+Thu Oct 16 22:18:26 2014: scan(axis=mvfoc, start=200, step=100, end=1300, time=10)
+
+Thu Oct 16 22:23:34 2014: scan(axis=mvfoc, start=1400, step=200, end=3000, time=10)
+
+Thu Oct 16 22:29:55 2014: scan(axis=mvfoc, start=2000, step=200, end=3000, time=10)
+Thu Oct 16 22:42:55 2014: move(axis=STP4, targetPos=23.73
+Thu Oct 16 22:43:30 2014: move(axis=STP4, targetPos=23.73
+Thu Oct 16 22:44:21 2014: move(axis=STP4, targetPos=23.73
+Thu Oct 16 22:44:53 2014: move(axis=SRV32, targetPos=47.46
+Thu Oct 16 22:48:15 2014: move(axis=STP25, targetPos=89.8
+
+Thu Oct 16 22:49:56 2014: scan(axis=mvfoc, start=2000, step=200, end=400, time=10)
+Thu Oct 16 22:55:33 2014: move(axis=STP12, targetPos=0
+Thu Oct 16 22:55:48 2014: move(axis=STP11, targetPos=0
+
+Thu Oct 16 22:56:58 2014: scan(axis=mvfoc, start=600, step=200, end=2000, time=10)
+Thu Oct 16 23:00:03 2014: move(axis=STP4, targetPos=18
+Thu Oct 16 23:00:19 2014: move(axis=SRV32, targetPos=36
+Thu Oct 16 23:03:55 2014: move(axis=STP1, targetPos=1000
+Thu Oct 16 23:04:22 2014: cscan(axis=mvfoc, amplitude=500, step=100, time=10)
+
+Thu Oct 16 23:10:07 2014: scan(axis=mvfoc, start=1450, step=100, end=950, time=10)
+Thu Oct 16 23:12:51 2014: move(axis=STP1, targetPos=1250
+Thu Oct 16 23:24:56 2014: move(axis=SRV34, targetPos=-32.86
+Thu Oct 16 23:26:38 2014: move(axis=SRV34, targetPos=-33.7
+Thu Oct 16 23:28:19 2014: cscan(axis=s2th, amplitude=1, step=0.2, time=10)
+Thu Oct 16 23:33:55 2014: move(axis=SRV34, targetPos=-65.72
+Thu Oct 16 23:40:05 2014: move(axis=SRV34, targetPos=-47.4
+Thu Oct 16 23:41:57 2014: cscan(axis=s2th, amplitude=1, step=0.2, time=5)
+Thu Oct 16 23:47:40 2014: move(axis=SRV34, targetPos=-47.2
+
+Thu Oct 16 23:48:47 2014: scan(axis=s1X, start=12, step=1, end=8, time=5)
+Thu Oct 16 23:50:57 2014: move(axis=STP7, targetPos=9
+Thu Oct 16 23:51:08 2014: move(axis=STP10, targetPos=50
+Thu Oct 16 23:52:17 2014: move(axis=STP25, targetPos=72
+Thu Oct 16 23:52:51 2014: move(axis=STP24, targetPos=0

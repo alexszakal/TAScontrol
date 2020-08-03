@@ -1,0 +1,38 @@
+#CNTAS song Tue Jul  8 11:55:39 2014 
+#USER: song 
+#DATE: Tue Jul  8 11:55:39 2014 
+#TITLE: Al_test 
+#CMD: schkl(start=(0, 0, 1, 0), step=(0, 0, 0, 0.1), np=21, time=3)
+#STEPS: E = 0.1  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=30 ALF3=60 ALF4=60
+#CELL: A=  3.864 B=  3.864 C=  11.73
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=2.000 K1=0.000 L1=0.000
+#PVEC2: H2=0.000 K2=0.000 L2=4.000
+#ANGLES:       mvfoc=    0.00       monok=   21.44       monho=   42.89 
+#ANGLES:        s2th=   11.99          om=   94.56         ath=  -68.55 
+#ANGLES:      sadist=    0.00      detang=   42.90        mtrX=    0.00 
+#ANGLES:        mtrY=    0.00         mgL=    0.00         mgU=    0.00 
+#ANGLES:         s1X=    0.00         s1Y=    0.00         s1L=    0.00 
+#ANGLES:         s1U=    0.00         s2X=    0.00         s2Y=    0.00 
+#ANGLES:         s2L=    0.00         s2U=    0.00        strX=    0.00 
+#ANGLES:        strY=    0.00         agU=    0.00         agL=    0.00 
+#ANGLES:       antrX=    0.00       antrY=    0.00        angU=    0.00 
+#ANGLES:        angL=    0.00     detdist=    0.00      msdist=    0.00 
+#ANGLES:     anShRot=    0.00    anShLift=    0.00         sgL=    3.49 
+#ANGLES:         sgU=   -2.41 
+#ZEROS:       mvfoc=    0.00       monok=   -0.45       monho=    0.00 
+#ZEROS:        s2th=    0.00          om=    0.00         ath=    0.00 
+#ZEROS:      sadist=    0.00      detang=    1.50        mtrX=    0.00 
+#ZEROS:        mtrY=    0.00         mgL=    0.00         mgU=    0.00 
+#ZEROS:         s1X=    0.00         s1Y=    0.00         s1L=    0.00 
+#ZEROS:         s1U=    0.00         s2X=    0.00         s2Y=    0.00 
+#ZEROS:         s2L=    0.00         s2U=    0.00        strX=    0.00 
+#ZEROS:        strY=    0.00         agU=    0.00         agL=    0.00 
+#ZEROS:       antrX=    0.00       antrY=    0.00        angU=    0.00 
+#ZEROS:        angL=    0.00     detdist=    0.00      msdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00         sgL=    0.00 
+#ZEROS:         sgU=    0.00 
+#DATA:
+#   H    K     L     EN      MON      TIME       CNT   SEQ.NUM     A1      A2      A3      A4      A5      A6       SGL     SGU

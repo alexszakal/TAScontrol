@@ -1,0 +1,13 @@
+#CNTAS Song Fri Jul 18 19:03:23 2014 
+#USER: Song 
+#DATE: Fri Jul 18 19:03:23 2014 
+#TITLE: FAT Test measurement 
+#CMD: scan(axis=s2th, start=-52.5, step=0.3, end=-59.7, time=20)
+#STEPS: s2th = 0.3  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  3.864 B=  3.864 C=  11.73
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=2.000 K1=0.000 L1=0.000
+#PVEC2: H2=0.000 K2=0.000 L2=4.000
+#ANGLES: 

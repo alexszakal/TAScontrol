@@ -1,0 +1,36 @@
+#CNTAS Song Fri Jul 18 19:01:38 2014 
+#USER: Song 
+#DATE: Fri Jul 18 19:01:38 2014 
+#TITLE: FAT Test measurement 
+#CMD: scan(axis=s2th, start=-52.5, step=0.3, end=-59.7, time=20)
+#STEPS: s2th = 0.3  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  3.864 B=  3.864 C=  11.73
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=2.000 K1=0.000 L1=0.000
+#PVEC2: H2=0.000 K2=0.000 L2=4.000
+#ANGLES:       monok=100000.38       monho=   17.31          om=   35.18 
+#ANGLES:        s2th=    1.99         ath=  141.96      detang=   89.54 
+#ANGLES:         sgU=   -0.07         sgL=    0.00       mvfoc=    0.00 
+#ANGLES:        mtrX=  500.00        mtrY=    0.00         mgU=   -1.00 
+#ANGLES:         mgL=    0.10         s1X=    1.12         s1Y=   32.05 
+#ANGLES:         s1L=   32.05         s1U=  142.72         s2X=  142.72 
+#ANGLES:         s2Y=    9.46         s2L=    8.49         s2U=   25.00 
+#ANGLES:        strX=   25.00        strY=    0.01       antrX=    0.00 
+#ANGLES:       antrY=    0.00        angL=  -12.00        angU=    0.00 
+#ANGLES:      msdist=    0.00      sadist= 2490.10     detdist=  998.38 
+#ANGLES:     anShRot=  650.00    anShLift=   11.50 
+#ZEROS:       monok=   -0.38       monho=   -0.11          om=    0.00 
+#ZEROS:        s2th=    0.01         ath=   -0.53      detang=   -0.07 
+#ZEROS:         sgU=    0.00         sgL=    0.00       mvfoc=    0.00 
+#ZEROS:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ZEROS:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ZEROS:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ZEROS:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ZEROS:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ZEROS:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ZEROS:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00 
+#DATA:
+#     s2th        CNT      ROICNT       MON       TIME     2DFNUM    CNT/MON   Err(CNT/MON)

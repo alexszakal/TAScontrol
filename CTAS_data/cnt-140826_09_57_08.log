@@ -1,0 +1,36 @@
+#CNTAS Song Tue Aug 26 09:57:08 2014 
+#USER: Song 
+#DATE: Tue Aug 26 09:57:08 2014 
+#TITLE: FAT Test measurement 
+#CMD: schkl(start=[0, 0, 3, 0], step=[0, 0, 1, 0], np=2, time=1)
+#STEPS: L = 1  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=   3.79 B=   3.79 C=  17.15
+#CELL: alpha=90.00 beta=90.00 gamma=120.00
+#PVEC1: H1=0.000 K1=0.000 L1=0.000
+#PVEC2: H2=1.000 K2=1.000 L2=1.000
+#ANGLES:       monok=   20.59       monho=   41.19          om=   50.00 
+#ANGLES:        s2th=  -98.16         ath=   40.00      detang=   40.00 
+#ANGLES:         sgU=    0.00         sgL=    1.00       mvfoc=    0.00 
+#ANGLES:        mtrX=  -21.00        mtrY=  -23.69         mgU=   -0.88 
+#ANGLES:         mgL=   -0.02         s1X=   32.05         s1Y=   32.05 
+#ANGLES:         s1L=  142.72         s1U=  142.72         s2X=    8.88 
+#ANGLES:         s2Y=    7.88         s2L=   26.14         s2U=   28.03 
+#ANGLES:        strX=  -58.66        strY=  -54.86       antrX=  -12.11 
+#ANGLES:       antrY=  -12.56        angL=    0.00        angU=    0.00 
+#ANGLES:      msdist= 2500.00      sadist=  618.00     detdist= 1024.16 
+#ANGLES:     anShRot=    1.52    anShLift=    0.00 
+#ZEROS:       monok=   -0.19       monho=    0.42          om=    0.00 
+#ZEROS:        s2th=    0.10         ath=   -0.43      detang=   -0.22 
+#ZEROS:         sgU=    0.00         sgL=    0.00       mvfoc=    0.00 
+#ZEROS:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ZEROS:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ZEROS:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ZEROS:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ZEROS:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ZEROS:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ZEROS:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00 
+#DATA:
+#  H       K       L       EN      MON     TIME     CNT     ROICNT  SEQ.NUM   A1     A2     A3     A4     A5     A6     SGL    SGU

@@ -1,0 +1,21 @@
+#CNTAS Song Sat Jul 19 01:05:03 2014 
+#USER: Song 
+#DATE: Sat Jul 19 01:05:03 2014 
+#TITLE: FAT Test measurement 
+#CMD: scan(axis=om, start=350, step=0.2, end=10, time=5)
+#STEPS: om = 0.2  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  3.864 B=  3.864 C=  11.73
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=2.000 K1=0.000 L1=0.000
+#PVEC2: H2=0.000 K2=0.000 L2=4.000
+#ANGLES:       monok=   17.44       monho=   34.87          om=  257.84 
+#ANGLES:        s2th=  -60.50         ath=   17.44      detang=   34.87 
+#ANGLES:         sgU=    0.00         sgL=   -0.74       mvfoc=  500.00 
+#ANGLES:        mtrX=    0.00        mtrY=   -1.00         mgU=    0.10 
+#ANGLES:         mgL=    1.12         s1X=   32.05         s1Y=   32.05 
+#ANGLES:         s1L=  142.72         s1U=  142.72         s2X=    9.46 
+#ANGLES:         s2Y=    8.49         s2L=   25.00         s2U=   25.00 
+#ANGLES:        strX=    0.01        strY=    0.00       antrX=    0.00 
+#ANGLES:       antrY=    0.00 

@@ -1,0 +1,40 @@
+#CNTAS song Mon Jul 14 15:29:37 2014 
+#USER: song 
+#DATE: Mon Jul 14 15:29:37 2014 
+#TITLE: Al_test 
+#CMD: schkl(start=[2, 0, 0, 0], step=[0, 0, 0, 0.1], np=5, time=5)
+#STEPS: EN = 0.1  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  3.864 B=  3.864 C=  11.73
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=2.000 K1=0.000 L1=0.000
+#PVEC2: H2=0.000 K2=0.000 L2=4.000
+#ANGLES:       monok=   21.45       monho=   42.90          om=   37.97 
+#ANGLES:        s2th=   78.79         ath=  -68.55      detang=   42.90 
+#ANGLES:         sgU=   -2.41         sgL=    3.49       mvfoc=    0.00 
+#ANGLES:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ANGLES:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ANGLES:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ANGLES:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ANGLES:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ANGLES:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ANGLES:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ANGLES:     anShRot=    0.00    anShLift=    0.00 
+#ZEROS:       monok=    0.00       monho=    0.00          om=    0.00 
+#ZEROS:        s2th=    0.00         ath=    0.00      detang=    1.50 
+#ZEROS:         sgU=    0.00         sgL=    0.00       mvfoc=    0.00 
+#ZEROS:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ZEROS:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ZEROS:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ZEROS:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ZEROS:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ZEROS:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ZEROS:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00 #DATA:
+#  H       K       L       EN      MON     TIME     CNT    SEQ.NUM   A1     A2     A3     A4     A5     A6     SGL    SGU
+ 2.0000  0.0000  0.0000   0.00   5000.0    2.00     2000    10006  21.45  42.90  37.97  78.79 -68.55  42.90   3.49  -2.41
+ 2.0000  0.0000  0.0000   0.10   5000.0    2.00     2000    10007  21.45  42.90  38.17  78.96 -68.48  43.05   3.49  -2.41
+ 2.0000  0.0000  0.0000   0.20   5000.0    2.00     2000    10008  21.45  42.90  38.39  79.14 -68.39  43.22   3.49  -2.41
+ 2.0000  0.0000  0.0000   0.30   5000.0    2.00     2000    10009  21.45  42.90  38.60  79.31 -68.31  43.39   3.49  -2.41
+ 2.0000  0.0000  0.0000   0.40   5000.0    2.00     2000    10010  21.45  42.90  38.82  79.49 -68.22  43.57   3.49  -2.41

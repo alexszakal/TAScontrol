@@ -1,0 +1,14 @@
+Wed Oct 15 08:35:11 2014: move(axis=STP4, targetPos=20.91
+Wed Oct 15 08:36:15 2014: move(axis=STP25, targetPos=69.09
+Wed Oct 15 08:37:32 2014: move(axis=STP1, targetPos=1090
+Wed Oct 15 08:37:48 2014: move(axis=STP25, targetPos=69.09
+Wed Oct 15 08:38:31 2014: move(axis=STP1, targetPos=1090
+Wed Oct 15 08:45:43 2014: move(axis=SRV33, targetPos=2500
+Wed Oct 15 08:54:28 2014: move(axis=STP1, targetPos=0
+Wed Oct 15 09:04:35 2014: move(axis=STP10, targetPos=90
+Wed Oct 15 17:34:10 2014: move(axis=SRV33, targetPos=2400
+Wed Oct 15 17:34:44 2014: move(axis=SRV33, targetPos=2400
+Wed Oct 15 17:37:03 2014: move(axis=SRV33, targetPos=2400
+Wed Oct 15 17:49:25 2014: move(axis=SRV33, targetPos=2400
+Wed Oct 15 18:04:05 2014: move(axis=SRV33, targetPos=2300
+Wed Oct 15 18:06:21 2014: move(axis=SRV33, targetPos=2200

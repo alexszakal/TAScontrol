@@ -1,0 +1,87 @@
+Tue Sep  9 10:39:39 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+     40.18          0          0        0.0        0.0     108573      0.000      0.000
+
+Tue Sep  9 10:42:42 2014: cscan(axis=ath, amplitude=2, step=0.5, time=1)
+     47.11          0          0        0.0        1.0     108575      0.000      0.000
+
+     47.61          0          0        0.0        1.0     108576      0.000      0.000
+
+     48.11          0          0        0.0        1.0     108577      0.000      0.000
+
+     48.61          0          0        0.0        1.0     108578      0.000      0.000
+
+     49.11          0          0        0.0        1.0     108579      0.000      0.000
+
+     49.61          0          0        0.0        1.0     108580      0.000      0.000
+
+     50.11          0          0        0.0        1.0     108581      0.000      0.000
+
+     50.61          0          0        0.0        1.0     108582      0.000      0.000
+
+     51.11          0          0        0.0        1.0     108583      0.000      0.000
+
+Tue Sep  9 15:28:25 2014: move(axis=STP4, targetPos=20.91
+Tue Sep  9 15:29:12 2014: move(axis=SRV32, targetPos=41.85
+Tue Sep  9 15:29:42 2014: move(axis=STP4, targetPos=20.914
+Tue Sep  9 15:29:53 2014: move(axis=SRV32, targetPos=41.85
+Tue Sep  9 15:30:21 2014: move(axis=STP25, targetPos=69.086
+Tue Sep  9 15:31:04 2014: move(axis=SRV35, targetPos=41.85
+
+Tue Sep  9 15:32:47 2014: scan(axis=detang, start=41.85, step=44.85, end=0.5, time=5)
+     40.18          3          0        0.0        5.0     108585      0.000      0.000
+
+
+Tue Sep  9 15:34:17 2014: scan(axis=detang, start=41.85, step=0.5, end=44.85, time=5)
+     40.18          0          0        0.0        5.0     108587      0.000      0.000
+
+     40.18          3          0        0.0        5.0     108588      0.000      0.000
+
+Tue Sep  9 15:46:49 2014: move(axis=SRV35, targetPos=41.85
+Tue Sep  9 15:47:49 2014: move(axis=SRV35, targetPos=44
+Tue Sep  9 15:50:47 2014: move(axis=SRV35, targetPos=44
+Tue Sep  9 16:01:58 2014: move(axis=SRV35, targetPos=41.85
+Tue Sep  9 16:04:46 2014: move(axis=STP25, targetPos=69.086
+Tue Sep  9 16:05:09 2014: move(axis=STP4, targetPos=20.914
+Tue Sep  9 16:06:14 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+Tue Sep  9 16:11:07 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+Tue Sep  9 16:14:12 2014: move(axis=STP14, targetPos=0
+Tue Sep  9 16:17:08 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+Tue Sep  9 16:18:58 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+Tue Sep  9 16:21:17 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+Tue Sep  9 16:25:05 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+Tue Sep  9 16:26:45 2014: move(axis=STP13, targetPos=20
+Tue Sep  9 16:27:12 2014: cscan(axis=om, amplitude=3, step=1, time=1)
+Tue Sep  9 16:29:00 2014: cscan(axis=om, amplitude=3, step=1, time=1)
+     14.00          2          0        0.0        1.0     108591      0.000      0.000
+
+     15.00          1          0        0.0        1.0     108592      0.000      0.000
+
+     16.00          0          0        0.0        1.0     108593      0.000      0.000
+
+     17.00          0          0        0.0        1.0     108594      0.000      0.000
+
+     18.00          0          0        0.0        1.0     108595      0.000      0.000
+
+     19.00          0          0        0.0        1.0     108596      0.000      0.000
+
+     20.00          0          0        0.0        1.0     108597      0.000      0.000
+
+Tue Sep  9 16:30:30 2014: cscan(axis=detang, amplitude=2, step=0.5, time=1)
+     31.22          0          0        0.0        1.0     108599      0.000      0.000
+
+     31.72          0          0        0.0        1.0     108601      0.000      0.000
+
+     32.22          0          0        0.0      1.006     108603      0.000      0.000
+
+     32.72          0          0        0.0        1.0     108604      0.000      0.000
+
+     33.22          1          0        0.0        1.0     108606      0.000      0.000
+
+     33.72          0          0        0.0        1.0     108607      0.000      0.000
+
+     34.22          0          0        0.0        1.0     108609      0.000      0.000
+
+     34.72          0          0        0.0        1.0     108611      0.000      0.000
+
+     35.22          0          0        0.0        1.0     108613      0.000      0.000
+

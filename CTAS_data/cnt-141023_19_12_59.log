@@ -1,0 +1,43 @@
+#CNTAS Song Thu Oct 23 19:12:59 2014 
+#USER: Song 
+#DATE: Thu Oct 23 19:12:59 2014 
+#TITLE: FAT Test measurement 
+#CMD: scan(axis=s2L, start=26, step=3, end=8, time=1)
+#STEPS: s2L = 3  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=   5.16 B=   5.16 C=   5.16
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=0.000 K1=0.000 L1=2.000
+#PVEC2: H2=1.000 K2=1.000 L2=1.000
+#ANGLES:       monok=   22.50       monho=   44.99          om=  286.70 
+#ANGLES:        s2th=  -78.34         ath=   22.50      detang=   45.00 
+#ANGLES:         sgU=    0.12         sgL=    0.53       mvfoc= 1090.00 
+#ANGLES:        mtrX=   -0.00        mtrY=   -0.99         mgU=    0.10 
+#ANGLES:         mgL=    0.20         s1X=   16.00         s1Y=   16.00 
+#ANGLES:         s1L=   60.00         s1U=   60.00         s2X=    8.83 
+#ANGLES:         s2Y=    7.88         s2L=   26.14         s2U=   28.03 
+#ANGLES:        strX=   -0.01        strY=    0.00       antrX=   -0.00 
+#ANGLES:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ANGLES:      msdist= 2200.00      sadist=  926.60     detdist=  670.00 
+#ANGLES:     anShRot=   14.50    anShLift=  150.00 
+#ZEROS:       monok=   -0.37       monho=    0.28          om=    0.00 
+#ZEROS:        s2th=    0.07         ath=   -0.66      detang=   -0.40 
+#ZEROS:         sgU=    0.00         sgL=    0.00       mvfoc=    0.00 
+#ZEROS:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ZEROS:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ZEROS:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ZEROS:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ZEROS:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ZEROS:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ZEROS:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00 
+#DATA:
+#      s2L        CNT      ROICNT       MON       TIME     2DFNUM    CNT/MON   Err(CNT/MON)
+     26.00      19725       9776     5339.0        1.0     115583      1.831      0.031
+     23.00      19392       9568     5439.0        1.0     115584      1.759      0.030
+     20.00      18504       9613     5523.0        1.0     115585      1.741      0.029
+     17.00      17880       9867     5349.0        1.0     115586      1.845      0.031
+     14.00      15408       9633     5361.0        1.0     115587      1.797      0.031
+     11.00      12914       8895     5314.0        1.0     115588      1.674      0.029
+      8.00      10910       7244     5343.0        1.0     115589      1.356      0.024

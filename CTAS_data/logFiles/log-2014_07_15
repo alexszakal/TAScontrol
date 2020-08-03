@@ -1,0 +1,145 @@
+Tue Jul 15 00:51:45 2014: move(axis=STP5, targetPos=-1.0
+
+Tue Jul 15 00:51:49 2014: scan(axis=mvfoc, start=500, step=20, end=1500, time=20)
+Tue Jul 15 01:17:38 2014: move(axis=STP5, targetPos=-0.5
+
+Tue Jul 15 01:17:42 2014: scan(axis=mvfoc, start=500, step=20, end=1500, time=20)
+Tue Jul 15 01:43:29 2014: move(axis=STP5, targetPos=0.0
+
+Tue Jul 15 01:43:33 2014: scan(axis=mvfoc, start=500, step=20, end=1500, time=20)
+Tue Jul 15 02:09:18 2014: move(axis=STP5, targetPos=0.5
+
+Tue Jul 15 02:09:21 2014: scan(axis=mvfoc, start=500, step=20, end=1500, time=20)
+Tue Jul 15 09:11:09 2014: move(axis=STP5, targetPos=0
+
+Tue Jul 15 09:12:06 2014: scan(axis=mvfoc, start=500, step=50, end=1700, time=10)
+
+Tue Jul 15 09:19:17 2014: scan(axis=mvfoc, start=500, step=50, end=1700, time=10)
+Tue Jul 15 09:28:17 2014: move(axis=STP5, targetPos=0.5
+
+Tue Jul 15 09:29:51 2014: scan(axis=mvfoc, start=500, step=50, end=1700, time=10)
+Tue Jul 15 09:38:32 2014: move(axis=STP5, targetPos=1
+
+Tue Jul 15 09:38:44 2014: scan(axis=mvfoc, start=300, step=50, end=1700, time=10)
+Tue Jul 15 09:47:16 2014: move(axis=STP1, targetPos=700
+
+Tue Jul 15 09:48:05 2014: scan(axis=monok, start=42.6, step=0.1, end=44.6, time=10)
+Tue Jul 15 09:56:52 2014: move(axis=STP4, targetPos=43.9
+
+Tue Jul 15 09:57:11 2014: scan(axis=mvfoc, start=300, step=50, end=1700, time=10)
+Tue Jul 15 10:07:06 2014: move(axis=STP1, targetPos=700
+Tue Jul 15 10:07:19 2014: move(axis=STP5, targetPos=3
+Tue Jul 15 10:07:33 2014: move(axis=STP5, targetPos=3.6
+
+Tue Jul 15 10:08:21 2014: scan(axis=mgL, start=-0.9, step=0.3, end=3, time=10)
+Tue Jul 15 10:14:58 2014: move(axis=STP5, targetPos=0.8
+
+Tue Jul 15 10:15:31 2014: scan(axis=mvfoc, start=0, step=50, end=1500, time=10)
+Tue Jul 15 10:35:14 2014: move(axis=STP12, targetPos=-45
+
+Tue Jul 15 10:35:50 2014: scan(axis=strY, start=-45, step=6, end=45, time=10)
+Tue Jul 15 10:37:07 2014: move(axis=STP1, targetPos=700
+
+Tue Jul 15 10:37:12 2014: scan(axis=strY, start=-45, step=6, end=45, time=10)
+Tue Jul 15 11:01:42 2014: move(axis=STP12, targetPos=0
+Tue Jul 15 11:04:10 2014: move(axis=STP4, targetPos=60
+Tue Jul 15 11:04:30 2014: move(axis=SRV32, targetPos=120.62
+
+Tue Jul 15 11:07:20 2014: scan(axis=monok, start=59, step=0.1, end=61, time=10)
+Tue Jul 15 11:15:31 2014: move(axis=STP4, targetPos=60
+
+Tue Jul 15 11:16:11 2014: scan(axis=mvfoc, start=0, step=50, end=1500, time=10)
+Tue Jul 15 11:28:01 2014: move(axis=STP1, targetPos=-300
+Tue Jul 15 11:33:07 2014: move(axis=STP1, targetPos=622
+
+Tue Jul 15 11:33:39 2014: scan(axis=mgL, start=-0.9, step=0.3, end=3, time=10)
+Tue Jul 15 11:40:25 2014: move(axis=STP5, targetPos=0.725
+
+Tue Jul 15 11:40:43 2014: scan(axis=strY, start=-45, step=6, end=45, time=10)
+Tue Jul 15 11:52:27 2014: move(axis=STP12, targetPos=0
+Tue Jul 15 11:54:07 2014: move(axis=SRV32, targetPos=40.62
+Tue Jul 15 12:00:59 2014: move(axis=STP4, targetPos=20
+Tue Jul 15 12:01:59 2014: move(axis=STP4, targetPos=20
+Tue Jul 15 12:02:36 2014: move(axis=STP4, targetPos=19
+Tue Jul 15 12:03:03 2014: move(axis=STP4, targetPos=19
+
+Tue Jul 15 12:03:30 2014: scan(axis=monok, start=19, step=0.1, end=21, time=10)
+
+Tue Jul 15 13:02:19 2014: scan(axis=monok, start=18.8, step=0.1, end=21.2, time=10)
+Tue Jul 15 13:14:37 2014: move(axis=STP4, targetPos=19.96
+
+Tue Jul 15 13:15:16 2014: scan(axis=mvfoc, start=0, step=50, end=1500, time=10)
+Tue Jul 15 13:27:24 2014: move(axis=STP1, targetPos=800
+
+Tue Jul 15 13:28:42 2014: scan(axis=mgL, start=-0.9, step=0.3, end=2.1, time=10)
+Tue Jul 15 13:36:03 2014: move(axis=STP5, targetPos=0.7
+
+Tue Jul 15 13:36:17 2014: scan(axis=strY, start=-45, step=6, end=45, time=10)
+Tue Jul 15 13:47:11 2014: move(axis=STP4, targetPos=43.9
+Tue Jul 15 13:47:32 2014: move(axis=STP12, targetPos=0
+Tue Jul 15 13:48:06 2014: move(axis=SRV32, targetPos=88.42
+
+Tue Jul 15 13:52:32 2014: scan(axis=monok, start=42.9, step=0.1, end=44.9, time=10)
+Tue Jul 15 14:25:50 2014: move(axis=STP28, targetPos=1000
+Tue Jul 15 14:26:36 2014: move(axis=STP28, targetPos=1000
+Tue Jul 15 14:27:39 2014: move(axis=SRV34, targetPos=85.6
+Tue Jul 15 15:16:50 2014: move(axis=SRV34, targetPos=85.6
+Tue Jul 15 15:21:35 2014: move(axis=SRV34, targetPos=85.6
+Tue Jul 15 17:00:33 2014: move(axis=SRV32, targetPos=88.42
+Tue Jul 15 17:02:45 2014: move(axis=SRV32, targetPos=88
+Tue Jul 15 17:03:15 2014: move(axis=SRV32, targetPos=88.42
+Tue Jul 15 17:04:43 2014: move(axis=SRV34, targetPos=85.8
+
+Tue Jul 15 17:07:02 2014: scan(axis=s2th, start=85.8, step=0.1, end=83.8, time=10)
+
+Tue Jul 15 17:10:56 2014: scan(axis=s2th, start=85.8, step=0.1, end=83.8, time=10)
+
+Tue Jul 15 17:12:34 2014: scan(axis=s2th, start=85.8, step=0.1, end=83.8, time=10)
+Tue Jul 15 17:14:19 2014: move(axis=SRV34, targetPos=88.5
+
+Tue Jul 15 17:14:45 2014: scan(axis=s2th, start=85.8, step=0.1, end=83.8, time=10)
+
+Tue Jul 15 17:25:12 2014: scan(axis=s2th, start=83.7, step=0.1, end=832, time=10)
+
+Tue Jul 15 17:25:29 2014: scan(axis=s2th, start=83.7, step=0.1, end=83.2, time=10)
+Tue Jul 15 17:33:40 2014: move(axis=SRV34, targetPos=-83
+
+Tue Jul 15 17:39:03 2014: scan(axis=s2th, start=-83, step=0.1, end=-86, time=15)
+Tue Jul 15 18:00:48 2014: move(axis=SRV32, targetPos=74.02
+Tue Jul 15 18:02:55 2014: move(axis=STP4, targetPos=36.7
+
+Tue Jul 15 18:05:18 2014: scan(axis=s2th, start=-68.3, step=0.2, end=-71.7, time=15)
+Tue Jul 15 19:19:58 2014: cscan(axis=om, amplitude=1, step=0.2, time=1)
+Tue Jul 15 19:20:09 2014: move(axis=STP13, targetPos=5
+Tue Jul 15 19:21:39 2014: move(axis=STP25, targetPos=0
+Tue Jul 15 19:22:03 2014: cscan(axis=ath, amplitude=1, step=0.2, time=2)
+Tue Jul 15 19:30:54 2014: move(axis=SRV34, targetPos=-70.8
+Tue Jul 15 19:31:12 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 19:33:45 2014: move(axis=SRV34, targetPos=-70.8
+Tue Jul 15 19:34:04 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 19:50:51 2014: move(axis=SRV34, targetPos=-103.8
+Tue Jul 15 19:52:07 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 20:08:48 2014: move(axis=SRV34, targetPos=69.4
+Tue Jul 15 20:13:49 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 20:30:31 2014: move(axis=SRV34, targetPos=102.4
+Tue Jul 15 20:31:38 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 20:48:19 2014: move(axis=SRV34, targetPos=-57.4
+Tue Jul 15 20:53:07 2014: move(axis=STP4, targetPos=29.5
+Tue Jul 15 20:53:12 2014: move(axis=SRV32, targetPos=59.63
+Tue Jul 15 20:55:08 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 21:11:22 2014: move(axis=SRV34, targetPos=-81.4
+Tue Jul 15 21:12:21 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 21:29:12 2014: move(axis=SRV34, targetPos=-100.8
+Tue Jul 15 21:30:05 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 21:46:08 2014: move(axis=SRV34, targetPos=-105.3
+Tue Jul 15 21:46:35 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 22:03:14 2014: move(axis=STP4, targetPos=22.83
+Tue Jul 15 22:03:19 2014: move(axis=SRV32, targetPos=46.29
+Tue Jul 15 22:05:49 2014: move(axis=SRV34, targetPos=-44.6
+Tue Jul 15 22:07:43 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+Tue Jul 15 22:24:35 2014: move(axis=SRV34, targetPos=-62.1
+Tue Jul 15 22:25:24 2014: cscan(axis=s2th, amplitude=2.4, step=0.2, time=20)
+
+Tue Jul 15 22:39:39 2014: scan(axis=s2th, start=-10, step=0.2, end=110, time=50)
+
+Tue Jul 15 22:41:43 2014: scan(axis=s2th, start=-9, step=0.2, end=-110, time=50)

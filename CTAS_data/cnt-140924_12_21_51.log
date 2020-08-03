@@ -1,0 +1,41 @@
+#CNTAS Song Wed Sep 24 12:21:51 2014 
+#USER: Song 
+#DATE: Wed Sep 24 12:21:51 2014 
+#TITLE: FAT Test measurement 
+#CMD: schkl(start=[0, 0, 2.05, 1.75], step=[0, 0, 0, 0.5], np=5, time=60)
+#STEPS: EN = 0.5  
+#ROI: Xmin=1 Xmax=128 Ymin=1 Ymax=128 
+#COLLI: ALF1=600 ALF2=60 ALF3=30 ALF4=30
+#CELL: A=  4.055 B=  4.055 C=  4.055
+#CELL: alpha=90.00 beta=90.00 gamma=90.00
+#PVEC1: H1=0.000 K1=0.000 L1=2.000
+#PVEC2: H2=1.000 K2=1.000 L2=1.000
+#ANGLES:       monok=   20.91       monho=   41.83          om=  284.44 
+#ANGLES:        s2th=  -78.59         ath=   23.14      detang=   46.29 
+#ANGLES:         sgU=   -5.00         sgL=   -0.20       mvfoc= 1100.00 
+#ANGLES:        mtrX=  -21.00        mtrY=  -23.69         mgU=   -0.88 
+#ANGLES:         mgL=   -0.02         s1X=   14.00         s1Y=   14.00 
+#ANGLES:         s1L=  142.72         s1U=   80.00         s2X=    8.88 
+#ANGLES:         s2Y=    7.88         s2L=   26.14         s2U=   28.03 
+#ANGLES:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ANGLES:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ANGLES:      msdist= 2161.40      sadist=  618.00     detdist= 1024.16 
+#ANGLES:     anShRot=   14.50    anShLift=   72.65 
+#ZEROS:       monok=   -0.32       monho=    0.42          om=    0.00 
+#ZEROS:        s2th=    0.10         ath=   -0.43      detang=   -0.38 
+#ZEROS:         sgU=    0.00         sgL=    0.00       mvfoc=    0.00 
+#ZEROS:        mtrX=    0.00        mtrY=    0.00         mgU=    0.00 
+#ZEROS:         mgL=    0.00         s1X=    0.00         s1Y=    0.00 
+#ZEROS:         s1L=    0.00         s1U=    0.00         s2X=    0.00 
+#ZEROS:         s2Y=    0.00         s2L=    0.00         s2U=    0.00 
+#ZEROS:        strX=    0.00        strY=    0.00       antrX=    0.00 
+#ZEROS:       antrY=    0.00        angL=    0.00        angU=    0.00 
+#ZEROS:      msdist=    0.00      sadist=    0.00     detdist=    0.00 
+#ZEROS:     anShRot=    0.00    anShLift=    0.00 
+#DATA:
+#  H       K       L       EN      MON     TIME     CNT     ROICNT  SEQ.NUM   A1     A2     A3     A4     A5     A6     SGL    SGU
+ 0.0000  0.0000  2.0500   1.75 135882.0   60.00       86       69   111407  20.91  41.83 284.44 -77.29  22.40  44.80  -0.20  -5.00
+ 0.0000  0.0000  2.0500   2.25 134640.0   60.00      147      126   111409  20.91  41.83 285.00 -78.14  22.89  45.78  -0.20  -5.00
+ 0.0000  0.0000  2.0500   2.75 135632.0   60.00       93       77   111411  20.91  41.83 283.87 -79.03  23.41  46.82  -0.20  -5.00
+ 0.0000  0.0000  2.0500   3.25 133768.0   60.00       81       64   111413  20.91  41.83 282.73 -79.94  23.97  47.94  -0.20  -5.00
+ 0.0000  0.0000  2.0500   3.75 134741.0   60.00       56       39   111415  20.91  41.83 281.55 -80.89  24.57  49.14  -0.20  -5.00

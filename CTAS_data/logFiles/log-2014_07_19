@@ -1,0 +1,320 @@
+Sat Jul 19 00:02:00 2014: move(axis=STP14, targetPos=-0.74
+
+Sat Jul 19 00:02:50 2014: scan(axis=s2th, start=-49.8, step=0.1, end=-51.8, time=3)
+Sat Jul 19 00:11:09 2014: move(axis=SRV34, targetPos=-51.04
+Sat Jul 19 00:11:42 2014: cscan(axis=om, amplitude=2, step=0.2, time=1)
+Sat Jul 19 00:16:28 2014: move(axis=SRV34, targetPos=-88.84
+Sat Jul 19 00:17:59 2014: move(axis=STP13, targetPos=265.5
+Sat Jul 19 00:19:20 2014: cscan(axis=om, amplitude=4, step=0.4, time=1)
+Sat Jul 19 00:23:50 2014: move(axis=STP13, targetPos=227.5
+Sat Jul 19 00:24:31 2014: cscan(axis=om, amplitude=4, step=0.4, time=1)
+Sat Jul 19 00:31:29 2014: move(axis=STP13, targetPos=227.5
+
+Sat Jul 19 00:32:12 2014: scan(axis=s2th, start=-88, step=0.2, end=-90, time=3)
+Sat Jul 19 00:37:02 2014: move(axis=SRV34, targetPos=-89.4
+Sat Jul 19 00:37:27 2014: cscan(axis=om, amplitude=4, step=0.4, time=2)
+Sat Jul 19 00:42:39 2014: move(axis=SRV34, targetPos=-59.33
+Sat Jul 19 00:46:14 2014: move(axis=STP13, targetPos=215.34
+Sat Jul 19 00:46:42 2014: cscan(axis=om, amplitude=4, step=0.4, time=1)
+Sat Jul 19 00:51:03 2014: move(axis=STP13, targetPos=212.14
+Sat Jul 19 00:52:00 2014: cscan(axis=sgU, amplitude=2, step=0.4, time=2)
+Sat Jul 19 00:54:16 2014: move(axis=STP15, targetPos=-1.2
+
+Sat Jul 19 00:55:14 2014: scan(axis=s2th, start=-58.5, step=0.2, end=-60.5, time=2)
+Sat Jul 19 01:03:07 2014: move(axis=STP15, targetPos=0
+
+Sat Jul 19 01:04:30 2014: scan(axis=om, start=350, step=0.2, end=10, time=5)
+Sat Jul 19 01:04:58 2014: move(axis=SRV34, targetPos=-59.32
+Sat Jul 19 01:06:10 2014: move(axis=SRV34, targetPos=-59.32
+
+Sat Jul 19 01:06:27 2014: scan(axis=om, start=350, step=0.2, end=10, time=5)
+Sat Jul 19 01:06:55 2014: move(axis=SRV34, targetPos=-59.32
+
+Sat Jul 19 01:06:59 2014: scan(axis=om, start=350, step=0.2, end=10, time=5)
+Sat Jul 19 07:55:48 2014: move(axis=SRV34, targetPos=-88.84
+
+Sat Jul 19 07:55:56 2014: scan(axis=om, start=10, step=0.2, end=350, time=5)
+Sat Jul 19 09:27:17 2014: move(axis=STP13, targetPos=207
+Sat Jul 19 09:29:44 2014: cscan(axis=om, amplitude=2, step=0.2, time=2)
+Sat Jul 19 09:34:56 2014: move(axis=STP13, targetPos=207.07
+Sat Jul 19 09:36:32 2014: cscan(axis=sgU, amplitude=4, step=0.4, time=1)
+Sat Jul 19 09:39:13 2014: move(axis=STP15, targetPos=-3
+Sat Jul 19 09:39:44 2014: cscan(axis=sgL, amplitude=3, step=0.2, time=1)
+Sat Jul 19 09:47:32 2014: move(axis=STP14, targetPos=-0.53
+
+Sat Jul 19 09:48:56 2014: scan(axis=s2th, start=-58.5, step=0.1, end=-59.5, time=1)
+
+Sat Jul 19 09:53:25 2014: scan(axis=s2th, start=-59.4, step=0.1, end=-60.4, time=1)
+Sat Jul 19 09:58:14 2014: move(axis=SRV34, targetPos=-59.61
+Sat Jul 19 09:58:44 2014: cscan(axis=om, amplitude=2, step=0.2, time=1)
+Sat Jul 19 10:02:51 2014: move(axis=STP13, targetPos=207.01
+Sat Jul 19 10:03:25 2014: cscan(axis=sgU, amplitude=3, step=0.3, time=1)
+Sat Jul 19 10:09:23 2014: cscan(axis=sgL, amplitude=4, step=0.2, time=1)
+Sat Jul 19 10:15:16 2014: move(axis=STP15, targetPos=-3.02
+
+Sat Jul 19 10:15:56 2014: scan(axis=sgL, start=-3, step=0.3, end=3, time=1)
+Sat Jul 19 10:22:02 2014: move(axis=STP14, targetPos=-0.52
+
+Sat Jul 19 10:23:25 2014: scan(axis=s2th, start=-58.8, step=0.1, end=-60.4, time=1)
+
+Sat Jul 19 10:30:50 2014: scan(axis=s2th, start=-58.4, step=0.2, end=-60.8, time=1)
+Sat Jul 19 10:36:20 2014: move(axis=SRV34, targetPos=-51.04
+Sat Jul 19 10:37:00 2014: move(axis=STP13, targetPos=336.5
+Sat Jul 19 10:38:38 2014: move(axis=STP15, targetPos=0
+Sat Jul 19 10:39:23 2014: move(axis=STP14, targetPos=-0.74
+Sat Jul 19 10:40:17 2014: cscan(axis=sgL, amplitude=4.8, step=0.2, time=1)
+
+Sat Jul 19 11:05:28 2014: schkl(start=[0, 0, 1.8, 0], step=[0, 0, 0.025, 0], np=17, time=2)
+Sat Jul 19 11:05:30 2014: move(axis=STP4, targetPos=21.446682769
+Sat Jul 19 11:05:34 2014: move(axis=SRV32, targetPos=42.893365538
+Sat Jul 19 11:07:19 2014: move(axis=STP13, targetPos=268.597676332
+Sat Jul 19 11:08:00 2014: move(axis=SRV32, targetPos=34.87
+Sat Jul 19 11:08:56 2014: move(axis=STP4, targetPos=17.44
+Sat Jul 19 11:10:39 2014: move(axis=SRV32, targetPos=34.87
+Sat Jul 19 11:12:06 2014: move(axis=SRV32, targetPos=34.87
+Sat Jul 19 11:16:44 2014: move(axis=STP4, targetPos=17.44
+Sat Jul 19 11:17:13 2014: move(axis=SRV35, targetPos=34.87
+Sat Jul 19 11:17:29 2014: move(axis=STP25, targetPos=72.56
+
+Sat Jul 19 11:19:01 2014: schkl(start=[0, 0, 1.8, 0], step=[0, 0, 0.025, 0], np=17, time=2)
+Sat Jul 19 11:19:03 2014: move(axis=STP13, targetPos=275.152799883
+Sat Jul 19 11:19:11 2014: move(axis=SRV34, targetPos=-53.4946581242
+Sat Jul 19 11:19:30 2014: move(axis=STP15, targetPos=-0.678106923664
+Sat Jul 19 11:19:38 2014: move(axis=STP14, targetPos=-2.94473063513
+Sat Jul 19 11:20:35 2014: move(axis=STP13, targetPos=274.751029701
+Sat Jul 19 11:20:38 2014: move(axis=SRV34, targetPos=-54.2981984876
+Sat Jul 19 11:21:02 2014: move(axis=STP13, targetPos=274.347809534
+Sat Jul 19 11:21:06 2014: move(axis=SRV34, targetPos=-55.1046388214
+Sat Jul 19 11:21:37 2014: move(axis=STP13, targetPos=273.943103378
+Sat Jul 19 11:21:41 2014: move(axis=SRV34, targetPos=-55.9140511337
+
+Sat Jul 19 11:22:59 2014: schkl(start=[0, 0, 1.8, 0], step=[0, 0, 0.025, 0], np=17, time=2)
+Sat Jul 19 11:23:01 2014: move(axis=STP13, targetPos=275.152799883
+Sat Jul 19 11:23:04 2014: move(axis=SRV34, targetPos=-53.4946581242
+Sat Jul 19 11:23:40 2014: move(axis=STP13, targetPos=274.751029701
+Sat Jul 19 11:23:43 2014: move(axis=SRV34, targetPos=-54.2981984876
+Sat Jul 19 11:24:10 2014: move(axis=STP13, targetPos=274.347809534
+Sat Jul 19 11:24:13 2014: move(axis=SRV34, targetPos=-55.1046388214
+Sat Jul 19 11:24:38 2014: move(axis=STP13, targetPos=273.943103378
+Sat Jul 19 11:24:42 2014: move(axis=SRV34, targetPos=-55.9140511337
+Sat Jul 19 11:25:06 2014: move(axis=STP13, targetPos=273.536874262
+Sat Jul 19 11:25:09 2014: move(axis=SRV34, targetPos=-56.726509366
+Sat Jul 19 11:25:39 2014: move(axis=STP13, targetPos=273.129084206
+Sat Jul 19 11:25:42 2014: move(axis=SRV34, targetPos=-57.5420894776
+Sat Jul 19 11:26:07 2014: move(axis=STP13, targetPos=272.719694177
+Sat Jul 19 11:26:10 2014: move(axis=SRV34, targetPos=-58.3608695353
+Sat Jul 19 11:26:42 2014: move(axis=STP13, targetPos=272.308664042
+Sat Jul 19 11:26:45 2014: move(axis=SRV34, targetPos=-59.1829298068
+Sat Jul 19 11:27:10 2014: move(axis=STP13, targetPos=271.895952515
+Sat Jul 19 11:27:13 2014: move(axis=SRV34, targetPos=-60.0083528604
+Sat Jul 19 11:27:38 2014: move(axis=STP13, targetPos=271.48151711
+Sat Jul 19 11:27:41 2014: move(axis=SRV34, targetPos=-60.8372236697
+Sat Jul 19 11:28:11 2014: move(axis=STP13, targetPos=271.065314083
+Sat Jul 19 11:28:14 2014: move(axis=SRV34, targetPos=-61.6696297244
+Sat Jul 19 11:28:40 2014: move(axis=STP13, targetPos=270.647298371
+Sat Jul 19 11:28:43 2014: move(axis=SRV34, targetPos=-62.5056611474
+Sat Jul 19 11:29:07 2014: move(axis=STP13, targetPos=270.227423536
+Sat Jul 19 11:29:10 2014: move(axis=SRV34, targetPos=-63.3454108185
+Sat Jul 19 11:29:41 2014: move(axis=STP13, targetPos=269.805641692
+Sat Jul 19 11:29:44 2014: move(axis=SRV34, targetPos=-64.1889745063
+Sat Jul 19 11:30:08 2014: move(axis=STP13, targetPos=269.381903442
+Sat Jul 19 11:30:11 2014: move(axis=SRV34, targetPos=-65.0364510067
+Sat Jul 19 11:30:39 2014: move(axis=STP13, targetPos=268.9561578
+Sat Jul 19 11:30:42 2014: move(axis=SRV34, targetPos=-65.8879422911
+Sat Jul 19 11:31:06 2014: move(axis=STP13, targetPos=268.528352114
+Sat Jul 19 11:31:09 2014: move(axis=SRV34, targetPos=-66.7435536628
+Sat Jul 19 11:34:58 2014: move(axis=STP13, targetPos=271.895952515
+Sat Jul 19 11:35:03 2014: move(axis=SRV34, targetPos=-60.0083528604
+Sat Jul 19 11:36:39 2014: move(axis=STP13, targetPos=272.065287544
+Sat Jul 19 11:36:42 2014: move(axis=SRV34, targetPos=-59.6696828015
+Sat Jul 19 11:41:54 2014: move(axis=STP13, targetPos=0
+Sat Jul 19 12:00:09 2014: move(axis=STP15, targetPos=10
+Sat Jul 19 12:03:45 2014: move(axis=STP15, targetPos=0
+Sat Jul 19 12:04:36 2014: move(axis=STP14, targetPos=5
+Sat Jul 19 15:30:10 2014: move(axis=STP13, targetPos=277.484894948
+Sat Jul 19 15:33:11 2014: move(axis=STP15, targetPos=-0.635213567349
+Sat Jul 19 15:33:18 2014: move(axis=STP14, targetPos=2.94473063513
+Sat Jul 19 15:39:43 2014: move(axis=STP13, targetPos=337.154577749
+Sat Jul 19 15:41:16 2014: move(axis=STP13, targetPos=86.5454365203
+Sat Jul 19 15:44:06 2014: move(axis=STP15, targetPos=-0.852933928689
+Sat Jul 19 15:44:10 2014: move(axis=STP14, targetPos=-3.23751843964
+Sat Jul 19 15:44:55 2014: move(axis=STP13, targetPos=266.54543652
+Sat Jul 19 15:55:42 2014: move(axis=STP13, targetPos=206.875753719
+
+Sat Jul 19 15:57:25 2014: schkl(start=[0, 0, 1.8, 0], step=[0, 0, 0.025, 0], np=17, time=2)
+Sat Jul 19 15:57:28 2014: move(axis=STP13, targetPos=30.1110877839
+Sat Jul 19 15:59:28 2014: move(axis=SRV34, targetPos=-53.1990146713
+Sat Jul 19 16:00:13 2014: move(axis=STP13, targetPos=29.711902486
+Sat Jul 19 16:00:16 2014: move(axis=SRV34, targetPos=-53.9973852672
+Sat Jul 19 16:00:42 2014: move(axis=STP13, targetPos=29.3112951088
+Sat Jul 19 16:00:45 2014: move(axis=SRV34, targetPos=-54.7986000215
+Sat Jul 19 16:01:09 2014: move(axis=STP13, targetPos=28.909230547
+Sat Jul 19 16:01:12 2014: move(axis=SRV34, targetPos=-55.6027291452
+Sat Jul 19 16:01:37 2014: move(axis=STP13, targetPos=28.505672763
+Sat Jul 19 16:01:40 2014: move(axis=SRV34, targetPos=-56.4098447131
+Sat Jul 19 16:02:11 2014: move(axis=STP13, targetPos=28.1005847474
+Sat Jul 19 16:02:14 2014: move(axis=SRV34, targetPos=-57.2200207443
+Sat Jul 19 16:02:38 2014: move(axis=STP13, targetPos=27.6939284756
+Sat Jul 19 16:02:41 2014: move(axis=SRV34, targetPos=-58.033333288
+Sat Jul 19 16:03:07 2014: move(axis=STP13, targetPos=27.2856648632
+Sat Jul 19 16:03:10 2014: move(axis=SRV34, targetPos=-58.8498605128
+Sat Jul 19 16:03:40 2014: move(axis=STP13, targetPos=26.8757537188
+Sat Jul 19 16:03:44 2014: move(axis=SRV34, targetPos=-59.6696828015
+Sat Jul 19 16:04:08 2014: move(axis=STP13, targetPos=26.4641536941
+Sat Jul 19 16:04:12 2014: move(axis=SRV34, targetPos=-60.492882851
+Sat Jul 19 16:04:36 2014: move(axis=STP13, targetPos=26.0508222306
+Sat Jul 19 16:04:39 2014: move(axis=SRV34, targetPos=-61.3195457779
+Sat Jul 19 16:05:10 2014: move(axis=STP13, targetPos=25.6357155045
+Sat Jul 19 16:05:13 2014: move(axis=SRV34, targetPos=-62.1497592301
+Sat Jul 19 16:05:39 2014: move(axis=STP13, targetPos=25.2187883672
+Sat Jul 19 16:05:42 2014: move(axis=SRV34, targetPos=-62.9836135047
+Sat Jul 19 16:06:09 2014: move(axis=STP13, targetPos=24.7999942832
+Sat Jul 19 16:06:12 2014: move(axis=SRV34, targetPos=-63.8212016727
+Sat Jul 19 16:06:38 2014: move(axis=STP13, targetPos=24.3792852636
+Sat Jul 19 16:06:42 2014: move(axis=SRV34, targetPos=-64.6626197119
+Sat Jul 19 16:07:13 2014: move(axis=STP13, targetPos=23.9566117964
+Sat Jul 19 16:07:17 2014: move(axis=SRV34, targetPos=-65.5079666463
+Sat Jul 19 16:07:43 2014: move(axis=STP13, targetPos=23.5319227717
+Sat Jul 19 16:07:46 2014: move(axis=SRV34, targetPos=-66.3573446957
+
+Sat Jul 19 16:25:32 2014: schkl(start=[0, 0, -1.8, 0], step=[0, 0, -0.025, 0], np=17, time=2)
+Sat Jul 19 16:25:35 2014: move(axis=STP13, targetPos=210.111087784
+Sat Jul 19 16:27:42 2014: move(axis=SRV34, targetPos=-53.1990146713
+Sat Jul 19 16:28:35 2014: move(axis=STP13, targetPos=209.711902486
+Sat Jul 19 16:28:39 2014: move(axis=SRV34, targetPos=-53.9973852672
+Sat Jul 19 16:29:04 2014: move(axis=STP13, targetPos=209.311295109
+Sat Jul 19 16:29:07 2014: move(axis=SRV34, targetPos=-54.7986000215
+Sat Jul 19 16:29:38 2014: move(axis=STP13, targetPos=208.909230547
+Sat Jul 19 16:29:41 2014: move(axis=SRV34, targetPos=-55.6027291452
+Sat Jul 19 16:30:07 2014: move(axis=STP13, targetPos=208.505672763
+Sat Jul 19 16:30:10 2014: move(axis=SRV34, targetPos=-56.4098447131
+Sat Jul 19 16:30:40 2014: move(axis=STP13, targetPos=208.100584747
+Sat Jul 19 16:30:45 2014: move(axis=SRV34, targetPos=-57.2200207443
+Sat Jul 19 16:31:10 2014: move(axis=STP13, targetPos=207.693928476
+Sat Jul 19 16:31:13 2014: move(axis=SRV34, targetPos=-58.033333288
+Sat Jul 19 16:31:37 2014: move(axis=STP13, targetPos=207.285664863
+Sat Jul 19 16:31:41 2014: move(axis=SRV34, targetPos=-58.8498605128
+Sat Jul 19 16:32:11 2014: move(axis=STP13, targetPos=206.875753719
+Sat Jul 19 16:32:15 2014: move(axis=SRV34, targetPos=-59.6696828015
+Sat Jul 19 16:32:40 2014: move(axis=STP13, targetPos=206.464153694
+Sat Jul 19 16:32:43 2014: move(axis=SRV34, targetPos=-60.492882851
+Sat Jul 19 16:33:08 2014: move(axis=STP13, targetPos=206.050822231
+Sat Jul 19 16:33:11 2014: move(axis=SRV34, targetPos=-61.3195457779
+Sat Jul 19 16:33:35 2014: move(axis=STP13, targetPos=205.635715505
+Sat Jul 19 16:33:38 2014: move(axis=SRV34, targetPos=-62.1497592301
+Sat Jul 19 16:34:08 2014: move(axis=STP13, targetPos=205.218788367
+Sat Jul 19 16:34:11 2014: move(axis=SRV34, targetPos=-62.9836135047
+Sat Jul 19 16:34:36 2014: move(axis=STP13, targetPos=204.799994283
+Sat Jul 19 16:34:40 2014: move(axis=SRV34, targetPos=-63.8212016727
+Sat Jul 19 16:35:10 2014: move(axis=STP13, targetPos=204.379285264
+Sat Jul 19 16:35:14 2014: move(axis=SRV34, targetPos=-64.6626197119
+Sat Jul 19 16:35:39 2014: move(axis=STP13, targetPos=203.956611796
+Sat Jul 19 16:35:42 2014: move(axis=SRV34, targetPos=-65.5079666463
+Sat Jul 19 16:36:07 2014: move(axis=STP13, targetPos=203.531922772
+Sat Jul 19 16:36:10 2014: move(axis=SRV34, targetPos=-66.3573446957
+Sat Jul 19 16:38:24 2014: move(axis=STP14, targetPos=-0.74
+Sat Jul 19 16:38:49 2014: move(axis=STP15, targetPos=-3
+Sat Jul 19 16:39:20 2014: move(axis=SRV34, targetPos=-59.67
+Sat Jul 19 16:39:57 2014: cscan(axis=sgU, amplitude=3, step=0.3, time=2)
+Sat Jul 19 16:46:08 2014: move(axis=STP15, targetPos=-1.8
+Sat Jul 19 16:46:35 2014: cscan(axis=om, amplitude=2, step=0.2, time=2)
+Sat Jul 19 16:51:26 2014: move(axis=STP13, targetPos=207.01
+
+Sat Jul 19 16:51:46 2014: scan(axis=sgU, start=-6, step=0.3, end=0, time=2)
+Sat Jul 19 16:57:41 2014: move(axis=STP15, targetPos=-3.14
+Sat Jul 19 16:58:45 2014: cscan(axis=om, amplitude=1.5, step=0.3, time=2)
+Sat Jul 19 17:02:22 2014: move(axis=STP13, targetPos=206.95
+Sat Jul 19 17:02:44 2014: move(axis=STP13, targetPos=336.5
+
+Sat Jul 19 17:04:38 2014: scan(axis=sgL, start=-4, step=0.3, end=3, time=2)
+
+Sat Jul 19 17:10:15 2014: schkl(start=[0, 0, -1.92, 0], step=[0, 0, -0.01, 0], np=17, time=2)
+Sat Jul 19 17:10:18 2014: move(axis=STP13, targetPos=208.181726579
+Sat Jul 19 17:11:46 2014: move(axis=SRV34, targetPos=-57.0577370806
+Sat Jul 19 17:12:05 2014: move(axis=STP15, targetPos=-3.23751843964
+Sat Jul 19 17:12:08 2014: move(axis=STP14, targetPos=-0.852933928689
+Sat Jul 19 17:12:38 2014: move(axis=STP13, targetPos=208.019380189
+Sat Jul 19 17:12:41 2014: move(axis=SRV34, targetPos=-57.3824298618
+Sat Jul 19 17:13:12 2014: move(axis=STP13, targetPos=207.856781652
+Sat Jul 19 17:13:15 2014: move(axis=SRV34, targetPos=-57.7076269348
+Sat Jul 19 17:13:39 2014: move(axis=STP13, targetPos=207.693928476
+Sat Jul 19 17:13:43 2014: move(axis=SRV34, targetPos=-58.033333288
+Sat Jul 19 17:14:04 2014: move(axis=STP13, targetPos=207.530818137
+Sat Jul 19 17:14:08 2014: move(axis=SRV34, targetPos=-58.3595539655
+Sat Jul 19 17:14:39 2014: move(axis=STP13, targetPos=207.367448086
+Sat Jul 19 17:14:43 2014: move(axis=SRV34, targetPos=-58.6862940677
+Sat Jul 19 17:15:05 2014: move(axis=STP13, targetPos=207.203815743
+Sat Jul 19 17:15:09 2014: move(axis=SRV34, targetPos=-59.0135587531
+Sat Jul 19 17:15:37 2014: move(axis=STP13, targetPos=207.0399185
+Sat Jul 19 17:15:40 2014: move(axis=SRV34, targetPos=-59.3413532388
+Sat Jul 19 17:16:10 2014: move(axis=STP13, targetPos=206.875753719
+Sat Jul 19 17:16:13 2014: move(axis=SRV34, targetPos=-59.6696828015
+Sat Jul 19 17:16:36 2014: move(axis=STP13, targetPos=206.71131873
+Sat Jul 19 17:16:39 2014: move(axis=SRV34, targetPos=-59.9985527789
+Sat Jul 19 17:17:06 2014: move(axis=STP13, targetPos=206.546610834
+Sat Jul 19 17:17:09 2014: move(axis=SRV34, targetPos=-60.3279685704
+Sat Jul 19 17:17:38 2014: move(axis=STP13, targetPos=206.3816273
+Sat Jul 19 17:17:41 2014: move(axis=SRV34, targetPos=-60.6579356386
+Sat Jul 19 17:18:11 2014: move(axis=STP13, targetPos=206.216365364
+Sat Jul 19 17:18:14 2014: move(axis=SRV34, targetPos=-60.9884595104
+Sat Jul 19 17:18:37 2014: move(axis=STP13, targetPos=206.050822231
+Sat Jul 19 17:18:40 2014: move(axis=SRV34, targetPos=-61.3195457779
+Sat Jul 19 17:19:10 2014: move(axis=STP13, targetPos=205.88499507
+Sat Jul 19 17:19:14 2014: move(axis=SRV34, targetPos=-61.6512000998
+Sat Jul 19 17:19:36 2014: move(axis=STP13, targetPos=205.718881018
+Sat Jul 19 17:19:39 2014: move(axis=SRV34, targetPos=-61.9834282025
+Sat Jul 19 17:20:08 2014: move(axis=STP13, targetPos=205.552477179
+Sat Jul 19 17:20:11 2014: move(axis=SRV34, targetPos=-62.3162358817
+
+Sat Jul 19 17:23:50 2014: schkl(start=[1.92, 1.92, 1.92, 0], step=[0.01, 0.01, 0.01, 0], np=17, time=2)
+Sat Jul 19 17:23:53 2014: move(axis=STP13, targetPos=306.159744961
+Sat Jul 19 17:25:02 2014: move(axis=SRV34, targetPos=-111.630479683
+Sat Jul 19 17:26:54 2014: move(axis=STP13, targetPos=305.717875564
+Sat Jul 19 17:26:57 2014: move(axis=SRV34, targetPos=-112.514218477
+Sat Jul 19 17:27:24 2014: move(axis=STP13, targetPos=305.270844701
+Sat Jul 19 17:27:28 2014: move(axis=SRV34, targetPos=-113.408280202
+Sat Jul 19 17:27:59 2014: move(axis=STP13, targetPos=304.818438952
+Sat Jul 19 17:28:02 2014: move(axis=SRV34, targetPos=-114.313091701
+Sat Jul 19 17:28:30 2014: move(axis=STP13, targetPos=304.360430378
+Sat Jul 19 17:28:33 2014: move(axis=SRV34, targetPos=-115.229108849
+Sat Jul 19 17:28:51 2014: move(axis=STP13, targetPos=303.896575105
+Sat Jul 19 17:28:54 2014: move(axis=SRV34, targetPos=-116.156819395
+Sat Jul 19 17:29:22 2014: move(axis=STP13, targetPos=303.426611716
+Sat Jul 19 17:29:25 2014: move(axis=SRV34, targetPos=-117.096746172
+Sat Jul 19 17:29:52 2014: move(axis=STP13, targetPos=302.950259435
+Sat Jul 19 17:29:55 2014: move(axis=SRV34, targetPos=-118.049450736
+Sat Jul 19 17:30:20 2014: move(axis=STP13, targetPos=302.467216052
+Sat Jul 19 17:30:24 2014: move(axis=SRV34, targetPos=-119.015537501
+Sat Jul 19 17:31:02 2014: move(axis=STP13, targetPos=301.977155571
+Sat Jul 19 17:31:05 2014: move(axis=SRV34, targetPos=-119.995658463
+Sat Jul 19 17:31:31 2014: move(axis=STP13, targetPos=301.479725496
+Sat Jul 19 17:31:34 2014: move(axis=SRV34, targetPos=-120.990518613
+Sat Jul 19 17:39:20 2014: move(axis=STP13, targetPos=300.974543721
+Sat Jul 19 17:39:23 2014: move(axis=SRV34, targetPos=-122.000882162
+
+Sat Jul 19 17:43:44 2014: schkl(start=[0.92, 0.92, 0.92, 0], step=[0.01, 0.01, 0.01, 0], np=17, time=2)
+
+Sat Jul 19 17:48:52 2014: schkl(start=[0.92, 0.92, 0.92, 0], step=[0.01, 0.01, 0.01, 0], np=17, time=2)
+
+Sat Jul 19 17:57:53 2014: schkl(start=[1, 1, 1, -0.4], step=[0, 0, 0, 0.05], np=17, time=2)
+
+Sat Jul 19 18:35:22 2014: schkl(start=[0, 0, 2.1, 4.5], step=[0, 0, 0, 0.2], np=21, time=90)
+
+Sat Jul 19 20:07:09 2014: schkl(start=[0, 0, 1.9, 4.5], step=[0, 0, 0, 0.2], np=21, time=60)
+
+Sat Jul 19 20:41:47 2014: schkl(start=[0, 0, 2.1, 5], step=[0, 0, 0, 0.2], np=21, time=60)
+
+Sat Jul 19 21:24:30 2014: schkl(start=[2, 2, 0.1, 5], step=[0, 0, 0, 0.2], np=21, time=60)
+
+Sat Jul 19 21:25:40 2014: schkl(start=[2, 2, 0.1, 5], step=[0, 0, 0, 0.2], np=21, time=60)
+
+Sat Jul 19 21:32:54 2014: schkl(start=[2, 2, 0.1, 1.5], step=[0, 0, 0, 0.2], np=21, time=60)
+Sat Jul 19 22:12:08 2014: move(axis=li, targetPos=2.4
+
+Sat Jul 19 22:23:55 2014: schkl(start=[0, 0, 2, -0.5], step=[0, 0, 0, 0.1], np=11, time=5)
+
+Sat Jul 19 22:25:50 2014: schkl(start=[0, 0, 2, -0.5], step=[0, 0, 0, 0.1], np=11, time=5)
+
+Sat Jul 19 22:35:45 2014: schkl(start=[0, 0, 2, 0.2], step=[0, 0, 0, 0.1], np=5, time=5)
+
+Sat Jul 19 23:09:02 2014: schkl(start=[0, 0, 2.1, 4.5], step=[0, 0, 0, 0.1], np=41, time=180)

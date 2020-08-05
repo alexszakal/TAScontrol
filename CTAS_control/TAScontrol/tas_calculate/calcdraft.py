@@ -189,7 +189,7 @@ UB=dot(U,B)
 
 #Definition of reciprocal lattice point, dE, Ei
 
-print hkl
+print(hkl)
 dE=0 #[meV]
 Ei=13.6 #[meV]
 Ef=Ei-dE
@@ -207,32 +207,32 @@ kf=2*pi/lam_f
 #   Scattering angle
 qabs=linalg.norm(dot(B,hkl.T))
 phi=rad2deg( arccos( (pow(ki,2) + pow(kf,2) - pow(qabs,2))/(2*ki*kf) ) ) * scattSign
-print 'phi: {0}'.format(phi)
+print('phi: {0}'.format(phi))
 #   Theta angle
 theta = rad2deg( arctan( (ki-kf*cos(deg2rad(phi))) / ( kf * sin(deg2rad(phi)) ) ) )
 if scattSign == -1:
     theta = 180+theta
-print 'theta: {0}'.format(theta)
+print('theta: {0}'.format(theta))
 
 #   Vector normal to the plane h1 h2
 uh1nu=dot(UB,h1) / linalg.norm( dot(UB,h1) )    #h1 in the nu coordinate system
 uh2nu=dot(UB,h2) / linalg.norm( dot(UB,h2) )    #h2 in the nu coordinate system
 uPlaneNormal=cross(uh1nu.T, uh2nu.T)
-print 'uh1nu'
-print uh1nu
-print 'uh2nu'
-print uh2nu
-print 'uPlaneNormal'
-print uPlaneNormal
+print('uh1nu')
+print(uh1nu)
+print('uh2nu')
+print(uh2nu)
+print('uPlaneNormal')
+print(uPlaneNormal)
 
 #   Normalized Q  (u1nu)in the nu coordinate system:
 u1nu = dot( UB, hkl.T) / linalg.norm( dot( UB, hkl.T) )
-print 'u1nu'
-print u1nu
+print('u1nu')
+print(u1nu)
 #   u2nu (perpendicular to (u1nu anduPlaneNormal)
 u2nu = cross(uPlaneNormal, u1nu.T)
-print 'u2nu'
-print u2nu
+print('u2nu')
+print(u2nu)
 
 
 #   Calculate the T matrix
@@ -247,8 +247,8 @@ T[1][1]=u2nu[0][1]
 T[2][1]=u2nu[0][2]
 #       Third column: cross(u1nu, u2nu)
 t3nu=cross(u1nu.T, u2nu)
-print 't3nu'
-print t3nu
+print('t3nu')
+print(t3nu)
 T[0][2]=t3nu[0][0]
 T[1][2]=t3nu[0][1]
 T[2][2]=t3nu[0][2]
@@ -257,7 +257,7 @@ T[2][2]=t3nu[0][2]
 R=linalg.inv(T)
 
 if scattSign==-4:
-    print '\nlefut\n'
+    print('\nlefut\n')
     R[0][0]=R[0][0]*(-1)
     R[1][0]=R[0][0]*(-1)
     R[2][0]=R[0][0]*(-1)
@@ -266,9 +266,9 @@ if scattSign==-4:
 mu=rad2deg( arctan(-1*R[2][0] / (sqrt(pow(R[0][0],2) + pow(R[1][0],2) ) )) )
 nu=rad2deg( arctan(R[2][1] / R[2][2] ) )
 omega=rad2deg( arctan(R[1][0] / R[0][0] ) )
-print 'omega: {0}'.format(omega)
+print('omega: {0}'.format(omega))
 s=omega + theta
-print 's: {0}'.format(s)
+print('s: {0}'.format(s))
 
 
 

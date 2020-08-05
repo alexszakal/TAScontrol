@@ -27,7 +27,7 @@ def initScanFile(command):
     nextFileNum=int(lastfile.replace('s','').replace('.dat',''))+1
     
     filNameNum="s{0}.dat".format(nextFileNum)
-    print filnameDate+"      "+"s"+str(nextFileNum)
+    print(filnameDate+"      "+"s"+str(nextFileNum))
     #Open the file
     fLogDate=open(dataPath+filnameDate, 'w')
     fLogNum=open(dataPath+"numberedScans/"+filNameNum,'w')

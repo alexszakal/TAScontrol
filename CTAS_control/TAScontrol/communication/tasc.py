@@ -59,10 +59,10 @@ def axisStatus(axis):
     """Reads the status of an axis"""
 
     msg='GetStatus,motor='+axis+';\r\n'
-    print 'Message:\n'+msg
+    print('Message:\n'+msg)
     statusSocket.sendall(msg)
     data = statusSocket.recv(4096)
-    print 'Reply:\n'+data
+    print('Reply:\n'+data)
     data = data.replace(',',';')
     data = data.replace('=',';')
     dataParts = data.split(';')
@@ -89,7 +89,7 @@ def startMove(axis, targetPos):
     if data == '0,message=OK;\r\n':
         return "moveStarted"
     else:
-        print "Motor move error on "+axis+" axis: "+data
+        print("Motor move error on "+axis+" axis: "+data)
         return "Error: "+data     
 
 def startCounting(mode, value):
@@ -102,14 +102,14 @@ def startCounting(mode, value):
     
     if mode == 'time':
         commandSocket.sendall('StartDAQ,timelimit='+str(value)+';&\r\n')
-        print 'StartDAQ,timelimit='+str(value)+';&\r\n'
+        print('StartDAQ,timelimit='+str(value)+';&\r\n')
     elif mode == 'monitor':
         commandSocket.sendall('StartDAQ,monitorlimit='+str(value)+';&\r\n')
     else:
-        print 'startCounting error. Give correct mode! Mode given: ' + mode
+        print('startCounting error. Give correct mode! Mode given: ' + mode)
          
     data = commandSocket.recv(4096)
-    print "startCount Reply:"+data
+    print("startCount Reply:"+data)
     #print "DAQStart reply:"
     #print data
     
@@ -117,7 +117,7 @@ def startCounting(mode, value):
         #print 'DAQ started'
         return 1
     else:
-        print 'DAQ start error! Message: '+data
+        print('DAQ start error! Message: '+data)
         return 0
     
 
@@ -169,9 +169,9 @@ def readDetectorStats():
     #s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     #s.connect((statusHOST, statusPORT))
     statusSocket.sendall('GetResult;\r\n')
-    print 'GetResult;'
+    print('GetResult;')
     data = statusSocket.recv(4096)
-    print "DetStat reply: " + data
+    print("DetStat reply: " + data)
     if data.find(';') == -1:
         statusSocket.recv(4096)
         
@@ -202,9 +202,9 @@ def readDetectorStatus():
     #s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     #s.connect((statusHOST, statusPORT))
     statusSocket.sendall('GetDAQStatus;\r\n')
-    print 'GetDAQStatus;'
+    print('GetDAQStatus;')
     data = statusSocket.recv(4096)
-    print 'GetDAQStatus Reply:'+data
+    print('GetDAQStatus Reply:'+data)
     if data.find(";")==-1:
         statusSocket.recv(4096)
     
@@ -241,7 +241,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
         if data.find("902,message=\"Monitor counts")!=-1:
             dataSplit=data.split('\t')
             if echoing == 'on':
-                print "{0:10.2f} {1:10d} {2:10d}\r".format(int(dataSplit[3])/1000.0, int(dataSplit[5]), int(dataSplit[1])),
+                print("{0:10.2f} {1:10d} {2:10d}\r".format(int(dataSplit[3])/1000.0, int(dataSplit[5]), int(dataSplit[1])), end=' ')
                 sys.stdout.flush()
             if int(dataSplit[3]) == lastTim:
                 sameTim=sameTim+1
@@ -259,7 +259,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
                 return retVals
     
     if (writeEnd == 'off') & (echoing == 'on'):
-        print "                                      \r",
+        print("                                      \r", end=' ')
             
     statusSocket.sendall('GetDAQStatus;\r\n'.format(count*1000))
     reply = statusSocket.recv(4096)

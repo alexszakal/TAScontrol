@@ -62,13 +62,13 @@ axisDict=OrderedDict( [('monok','STP4'), ('monho','SRV32'),  ('om','STP13'), ('s
  ('detdist','STP29'), ('anShRot', 'STP21'), ('anShLift', 'STP22') ] )
 
 global axisDictList
-axisDictList=axisDict.items()
+axisDictList=list(axisDict.items())
 
 axisDictRev=OrderedDict()
 for i in range(0,axisDictList.__len__()):
     axisDictRev.__setitem__(axisDictList[i][1], axisDictList[i][0])
 global axisDictRevList
-axisDictRevList=axisDictRev.items()
+axisDictRevList=list(axisDictRev.items())
 
 global unitDict
 unitDict=OrderedDict([ ('mvfoc','step'), ('monok','degree'), ('monho','degree'),\

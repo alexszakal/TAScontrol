@@ -1,7 +1,7 @@
 import socket
 import numpy
 import sys
-import thread
+import _thread
 import math
 from time import sleep
 
@@ -35,10 +35,10 @@ def axisStatus(axis):
     """Reads the status of an axis"""
 
     msg='GetStatus,motor='+axis+';\r\n'
-    print 'Message:\n'+msg
+    print('Message:\n'+msg)
     statusSocket.sendall(msg)
     data = statusSocket.recv(4096)
-    print 'Reply:\n'+data
+    print('Reply:\n'+data)
     data = data.replace(',',';')
     data = data.replace('=',';')
     dataParts = data.split(';')
@@ -67,7 +67,7 @@ def startMove(axis, targetPos):
     movingAxes[axisDictRev[axis]]=1
     pickle.dump(movingAxes, open("/home/szakal/Dropbox/mainPy/movingAxes.bin", "wb") )
     
-    thread.start_new_thread(moveEmulator, (axis, targetPos) )    
+    _thread.start_new_thread(moveEmulator, (axis, targetPos) )    
     
     return "moveStarted"
     
@@ -81,14 +81,14 @@ def startCounting(mode, value):
     
     if mode == 'time':
         commandSocket.sendall('StartDAQ,timelimit='+str(value)+';&\r\n')
-        print 'StartDAQ,timelimit='+str(value)+';&\r\n'
+        print('StartDAQ,timelimit='+str(value)+';&\r\n')
     elif mode == 'monitor':
         commandSocket.sendall('StartDAQ,monitorlimit='+str(value)+';&\r\n')
     else:
-        print 'startCounting error. Give correct mode! Mode given: ' + mode
+        print('startCounting error. Give correct mode! Mode given: ' + mode)
          
     data = commandSocket.recv(4096)
-    print "startCount Reply:"+data
+    print("startCount Reply:"+data)
     #print "DAQStart reply:"
     #print data
     
@@ -96,7 +96,7 @@ def startCounting(mode, value):
         #print 'DAQ started'
         return 1
     else:
-        print 'DAQ start error! Message: '+data
+        print('DAQ start error! Message: '+data)
         return 0
     
 
@@ -111,9 +111,9 @@ def readDetectorStats():
     #s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     #s.connect((statusHOST, statusPORT))
     statusSocket.sendall('GetResult;\r\n')
-    print 'GetResult;'
+    print('GetResult;')
     data = statusSocket.recv(4096)
-    print "DetStat reply: " + data
+    print("DetStat reply: " + data)
     if data.find(';') == -1:
         statusSocket.recv(4096)
         
@@ -143,9 +143,9 @@ def readDetectorStatus():
     #s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     #s.connect((statusHOST, statusPORT))
     statusSocket.sendall('GetDAQStatus;\r\n')
-    print 'GetDAQStatus;'
+    print('GetDAQStatus;')
     data = statusSocket.recv(4096)
-    print 'GetDAQStatus Reply:'+data
+    print('GetDAQStatus Reply:'+data)
     if data.find(";")==-1:
         statusSocket.recv(4096)
     
@@ -227,14 +227,14 @@ def detectorEmulator(mode, value):
         detStats[4]=0
         pickle.dump(detStats, open("/home/szakal/Dropbox/mainPy/detStats.bin", "wb"))
     else:
-        print 'Wrong MODE argument given to detectorEmulator'
+        print('Wrong MODE argument given to detectorEmulator')
     
     return
 
 def RSNDcount(mode, count, echoing='on', writeEnd='off'):
     
     #Start measurement
-    thread.start_new_thread(detectorEmulator, (mode, count*1000) )
+    _thread.start_new_thread(detectorEmulator, (mode, count*1000) )
     sleep(0.5)
     
     succ=0
@@ -248,7 +248,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
     while detStats[4]==1: 
         
         if echoing == 'on':
-            print "{0:10.2f} {1:10d} {2:10d}\r".format(int(detStats[0])/1000, int(detStats[1]), int(detStats[2])),
+            print("{0:10.2f} {1:10d} {2:10d}\r".format(int(detStats[0])/1000, int(detStats[1]), int(detStats[2])), end=' ')
             sys.stdout.flush()
         
         succ=0
@@ -261,7 +261,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
         sleep(0.5)
     
     if (writeEnd == 'off') & (echoing == 'on'):
-        print "                                      \r",
+        print("                                      \r", end=' ')
             
     
     #retVals=[Time(ms) Detector Monitor Seq.Number]

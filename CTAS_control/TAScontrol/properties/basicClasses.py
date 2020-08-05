@@ -1,6 +1,6 @@
 from numpy import *
 from collections import OrderedDict
-from sample import *
+from .sample import *
 
 
 class basicSample():

@@ -29,24 +29,24 @@ from TAScontrol.user_commands.commands import mvhkl
 from TAScontrol.user_commands.commands import schkl
 
 
-print "\n\n *** TAS Control Software Started ***"
-print "Initializing the connection to Servers..."
+print("\n\n *** TAS Control Software Started ***")
+print("Initializing the connection to Servers...")
 from TAScontrol.communication.tascAxisDefs import *            #Axis names
 from TAScontrol.properties.sample import *                     #Sample class and sctSample instanc
 from TAScontrol.properties.spectrometer import *               #Spectrometer class and actSpect instance
 from TAScontrol.properties.experiment import *
 
 #from TAScontrol.communication.tascCommSockets import *    #Connects to the server
-print "Connected to servers\n"
-print "Initializing spectrometer"
+print("Connected to servers\n")
+print("Initializing spectrometer")
 
 #Wrappers of spectrometer commands:
-print "Sample name:"
-print actSample.name
+print("Sample name:")
+print(actSample.name)
 
-print "Current motor positions:"
+print("Current motor positions:")
 rallh()
-print "\n\n"
+print("\n\n")
 
 #   EZEKET A VEGLEGESBE IS AT KELL TENNI!!!!!!!
 

@@ -1,7 +1,7 @@
 from numpy import *
 import pickle
 
-from basicSample import *
+from .basicSample import *
 
 from TAScontrol.others.filePath import *
 
@@ -23,7 +23,7 @@ class Sample(basicSampleType):
             self.ORef=zeros((2,8))
             self.pVec=matrix('1 0 0; 0 1 0')
         else:
-            print 'Loading file: '+name+'.bin\n'        
+            print('Loading file: '+name+'.bin\n')        
             sampleData=pickle.load(open(configDataPath+name+'.bin', 'rb'))
             self.name=sampleData.name
             self.a=sampleData.a
@@ -142,8 +142,8 @@ class Sample(basicSampleType):
         U=dot(Tphi,linalg.inv(Tc))
         self.UB=dot(U,B)
         
-        print '\n Refreshed UB:'
-        print self.UB
+        print('\n Refreshed UB:')
+        print(self.UB)
 
 
 

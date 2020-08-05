@@ -55,14 +55,14 @@ from TAScontrol.properties.sample import *                     #Sample class and
 from TAScontrol.properties.spectrometer import *               #Spectrometer class and actSpect instance
 from TAScontrol.properties.experiment import *
 
-print "\n\n *** TAS Control Software Started ***"
-print "Initializing the connection to Servers..."
+print("\n\n *** TAS Control Software Started ***")
+print("Initializing the connection to Servers...")
 if HWtype == 'ctas':
     from TAScontrol.communication.tascCommSockets import *    #Connects to the server
-print "Connected to servers\n"
-print "Current motor positions:"
+print("Connected to servers\n")
+print("Current motor positions:")
 rallh()
-print "\n\n"
+print("\n\n")
 #TMP Imports
 #from TAScontrol.communication.tasc import readDetectorStats
 #from TAScontrol.communication.tasc import startCounting  

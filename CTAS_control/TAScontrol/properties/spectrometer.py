@@ -2,8 +2,8 @@ from numpy import *
 import pickle
 import math as ma
 
-from sample import *
-from basicSpectrometer import *
+from .sample import *
+from .basicSpectrometer import *
 from collections import OrderedDict
 from TAScontrol.others.filePath import *
 

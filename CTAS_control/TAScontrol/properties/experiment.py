@@ -1,7 +1,7 @@
 from numpy import *
 import pickle
 
-from basicExp import *
+from .basicExp import *
 from TAScontrol.others.filePath import *
 
 class Experiment(BasicExperiment):

@@ -3,10 +3,11 @@ import sys
 from collections import OrderedDict
 import pickle
 import numpy
+from TAScontrol.others.filePath import *
 
 global HWtype
 HWtype='emulator'
-pickle.dump(HWtype, open('/home/szakal/Dropbox/mainPy/HWtype.bin','wb') )
+pickle.dump(HWtype, open(configDataPath+"HWtype.bin",'wb') )
 
 from TAScontrol.user_commands.commands import count
 from TAScontrol.user_commands.commands import readang
@@ -44,9 +45,7 @@ print("Initializing spectrometer")
 print("Sample name:")
 print(actSample.name)
 
-print("Current motor positions:")
-rallh()
-print("\n\n")
+
 
 #   EZEKET A VEGLEGESBE IS AT KELL TENNI!!!!!!!
 
@@ -57,24 +56,44 @@ print("\n\n")
 #   EZEKET NEM KELL ATTENNI A VEGLEGES FAJLBA !!!!
 if HWtype == 'emulator':
 #Initialize motor movement register
-    movingAxes=OrderedDict([ ('mvfoc',0), ('monok',0), ('monho',0),\
-    ('s2th',0),('om',0),('ath',0),('sadist',0),('detang',0),\
-    ('mtrX',0), ('mtrY',0), ('mgL',0), ('mgU',0), ('s1X', 0),\
-    ('s1Y',0), ('s1L',0), ('s1U',0), ('s2X',0), ('s2Y',0),\
-    ('s2L',0), ('s2U',0), ('strX',0), ('strY',0), ('agU',0),\
-    ('agL',0), ('antrX', 0), ('antrY',0), ('angU',0), ('angL',0),\
-    ('detdist',0), ('msdist',0), ('anShRot', 0), ('anShLift', 0),\
-    ('sgL', 0), ('sgU', 0)])
-    pickle.dump(movingAxes, open("/home/szakal/Dropbox/mainPy/movingAxes.bin", "wb"))
+
+    try:
+        pickle.load(open(emulatorPath+"movingAxes.bin", "rb"))
+    except:
+        movingAxes=OrderedDict([ ('mvfoc',0), ('monok',0), ('monho',0),\
+                                 ('s2th',0),('om',0),('ath',0),('sadist',0),('detang',0),\
+                                 ('mtrX',0), ('mtrY',0), ('mgL',0), ('mgU',0), ('s1X', 0),\
+                                 ('s1Y',0), ('s1L',0), ('s1U',0), ('s2X',0), ('s2Y',0),\
+                                 ('s2L',0), ('s2U',0), ('strX',0), ('strY',0), ('agU',0),\
+                                 ('agL',0), ('antrX', 0), ('antrY',0), ('angU',0), ('angL',0),\
+                                 ('detdist',0), ('msdist',0), ('anShRot', 0), ('anShLift', 0),\
+                                 ('sgL', 0), ('sgU', 0)])
+        pickle.dump(movingAxes, open(emulatorPath+"movingAxes.bin", "wb"))
+    
+    try:
+        pickle.load(open(emulatorPath+"emulPositions.bin", "rb"))
+    except:
+        print("exception rumming")
+        motPos=OrderedDict([ ('mvfoc',0), ('monok',0), ('monho',0),\
+                             ('s2th',0),('om',0),('ath',0),('sadist',0),('detang',0),\
+                             ('mtrX',0), ('mtrY',0), ('mgL',0), ('mgU',0), ('s1X', 0),\
+                             ('s1Y',0), ('s1L',0), ('s1U',0), ('s2X',0), ('s2Y',0),\
+                             ('s2L',0), ('s2U',0), ('strX',0), ('strY',0), ('agU',0),\
+                             ('agL',0), ('antrX', 0), ('antrY',0), ('angU',0), ('angL',0),\
+                             ('detdist',0), ('msdist',0), ('anShRot', 0), ('anShLift', 0),\
+                             ('sgL', 0), ('sgU', 0)])
+        pickle.dump(motPos, open(emulatorPath+"emulPositions.bin", "wb"))
 
 #Initialize detector registers
-
     detectorData=numpy.zeros((128,128))
-    pickle.dump(detectorData, open("/home/szakal/Dropbox/mainPy/detectorData.bin", "wb"))
+    pickle.dump(detectorData, open(emulatorPath+"detectorData.bin", "wb"))
 
     detStats=[0, 0, 0, 10000, 0]
-    pickle.dump(detStats, open('/home/szakal/Dropbox/mainPy/detStats.bin', 'wb'))
+    pickle.dump(detStats, open(emulatorPath+'detStats.bin', 'wb'))
 
+print("Current motor positions:")
+#rallh()
+print("\n\n")
 
 #TMP Imports
 #from TAScontrol.communication.tasc import readDetectorStats

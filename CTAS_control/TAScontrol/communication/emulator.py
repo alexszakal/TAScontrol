@@ -7,6 +7,7 @@ from time import sleep
 
 from .tascAxisDefs import *
 from TAScontrol.properties.spectrometer import *
+from TAScontrol.others.filePath import *
 
 import pickle
 
@@ -17,7 +18,7 @@ def position(axis):
     succ=0
     while succ==0:
         try:
-            motPos=pickle.load( open("/home/szakal/Dropbox/mainPy/emulPositions.bin", "rb") )
+            motPos=pickle.load( open(emulatorPath+"emulPositions.bin", "rb") )
             succ = 1
         except:
             pass
@@ -28,7 +29,7 @@ def isMoving(axis):
     #Determine if an axis is moving
     #returns 0->not moving
     #        1-> moving
-    movingAxes=pickle.load( open( "/home/szakal/Dropbox/mainPy/movingAxes.bin", "rb") )
+    movingAxes=pickle.load( open( emulatorPath+"movingAxes.bin", "rb") )
     return movingAxes[axisDictRev[axis]]
     
 def axisStatus(axis):
@@ -46,26 +47,26 @@ def axisStatus(axis):
     
 def moveEmulator(axis, targPos):
     currPos=position(axis)
-    motPos=pickle.load( open("/home/szakal/Dropbox/mainPy/emulPositions.bin", "rb") )
-    movingAxes=pickle.load( open( "/home/szakal/Dropbox/mainPy/movingAxes.bin", "rb") )
+    motPos=pickle.load( open(emulatorPath+"emulPositions.bin", "rb") )
+    movingAxes=pickle.load( open( emulatorPath+"movingAxes.bin", "rb") )
     while abs(currPos-targPos) > 0.01:
         currPos = numpy.sign(targPos-currPos)*0.01 + currPos
-        movingAxes=pickle.load( open( "/home/szakal/Dropbox/mainPy/movingAxes.bin", "rb") )
+        movingAxes=pickle.load( open( emulatorPath+"movingAxes.bin", "rb") )
         if movingAxes[axisDictRev[axis]] == 0:
             break
         
         #motPos=pickle.load( open("/home/szakal/Dropbox/mainPy/emulPositions.bin", "rb") )
         motPos[axisDictRev[axis]]=currPos
-        pickle.dump(motPos, open("/home/szakal/Dropbox/mainPy/emulPositions.bin", "wb") )
+        pickle.dump(motPos, open(emulatorPath+"emulPositions.bin", "wb") )
         sleep(0.02)
     movingAxes[axisDictRev[axis]] = 0
-    pickle.dump(movingAxes, open("/home/szakal/Dropbox/mainPy/movingAxes.bin", "wb") )
+    pickle.dump(movingAxes, open(emulatorPath+"movingAxes.bin", "wb") )
         
 def startMove(axis, targetPos):
     """Start to move a motor to a given position"""
-    movingAxes=pickle.load( open( "/home/szakal/Dropbox/mainPy/movingAxes.bin", "rb") )
+    movingAxes=pickle.load( open( emulatorPath+"movingAxes.bin", "rb") )
     movingAxes[axisDictRev[axis]]=1
-    pickle.dump(movingAxes, open("/home/szakal/Dropbox/mainPy/movingAxes.bin", "wb") )
+    pickle.dump(movingAxes, open(emulatorPath+"movingAxes.bin", "wb") )
     
     _thread.start_new_thread(moveEmulator, (axis, targetPos) )    
     
@@ -101,7 +102,7 @@ def startCounting(mode, value):
     
 
 def read2Ddata():
-    detector=pickle.load(open("/home/szakal/Dropbox/mainPy/detectorData.bin", "rb"))
+    detector=pickle.load(open(emulatorPath+"detectorData.bin", "rb"))
     
     return detector
 
@@ -161,17 +162,17 @@ def detectorEmulator(mode, value):
     succ=0
     while succ == 0:
         try:
-            detStats=pickle.load(open("/home/szakal/Dropbox/mainPy/detStats.bin", "rb"))
+            detStats=pickle.load(open(emulatorPath+"detStats.bin", "rb"))
             succ=1
         except:
             pass
     
     detStats=[0, 0, 0, detStats[3]+1, 1]  #[ido count monitor fajlnev running]
-    pickle.dump(detStats, open("/home/szakal/Dropbox/mainPy/detStats.bin", "wb"))
+    pickle.dump(detStats, open(emulatorPath+"detStats.bin", "wb"))
 
     #Zero detectorData, save it
     detectorData=numpy.zeros((128,128))
-    pickle.dump(detectorData, open("/home/szakal/Dropbox/mainPy/detectorData.bin", "wb"))
+    pickle.dump(detectorData, open(emulatorPath+"detectorData.bin", "wb"))
     
     mean=[64,64]
     cov=[[15,0],[0,20]]
@@ -196,11 +197,11 @@ def detectorEmulator(mode, value):
             detStats[0]=detStats[0]+500     #time
             detStats[1]=detStats[1]+200   #count
             detStats[2]=detStats[2]+1000  #monitor
-            pickle.dump(detStats, open("/home/szakal/Dropbox/mainPy/detStats.bin", "wb"))
-            pickle.dump(detectorData, open("/home/szakal/Dropbox/mainPy/detectorData.bin", "wb"))
+            pickle.dump(detStats, open(emulatorPath+"detStats.bin", "wb"))
+            pickle.dump(detectorData, open(emulatorPath+"detectorData.bin", "wb"))
             sleep(0.4)
         detStats[4]=0
-        pickle.dump(detStats, open("/home/szakal/Dropbox/mainPy/detStats.bin", "wb"))
+        pickle.dump(detStats, open(emulatorPath+"detStats.bin", "wb"))
         
     elif mode == 'monitor':
         while detstats[2] < value:
@@ -221,11 +222,11 @@ def detectorEmulator(mode, value):
             detStats[0]=detStats[0]+500     #time
             detStats[1]=detStats[1]+200   #count
             detStats[2]=detStats[2]+1000  #monitor
-            pickle.dump(detStats, open("/home/szakal/Dropbox/mainPy/detStats.bin", "wb"))
-            pickle.dump(detectorData, open("/home/szakal/Dropbox/mainPy/detectorData.bin", "wb"))
+            pickle.dump(detStats, open(emulatorPath+"detStats.bin", "wb"))
+            pickle.dump(detectorData, open(emulatorPath+"detectorData.bin", "wb"))
             sleep(0.4)
         detStats[4]=0
-        pickle.dump(detStats, open("/home/szakal/Dropbox/mainPy/detStats.bin", "wb"))
+        pickle.dump(detStats, open(emulatorPath+"detStats.bin", "wb"))
     else:
         print('Wrong MODE argument given to detectorEmulator')
     
@@ -240,7 +241,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
     succ=0
     while succ==0:
         try:
-            detStats=pickle.load(open('/home/szakal/Dropbox/mainPy/detStats.bin', 'rb'))
+            detStats=pickle.load(open(emulatorPath+'detStats.bin', 'rb'))
             succ=1
         except:
             pass
@@ -254,7 +255,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
         succ=0
         while succ==0:
             try:
-                detStats=pickle.load(open('/home/szakal/Dropbox/mainPy/detStats.bin', 'rb'))
+                detStats=pickle.load(open(emulatorPath+'detStats.bin', 'rb'))
                 succ=1
             except:
                 pass
@@ -268,7 +269,7 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
     succ=0
     while succ==0:
         try:
-            detStats=pickle.load(open('/home/szakal/Dropbox/mainPy/detStats.bin', 'rb'))
+            detStats=pickle.load(open(emulatorPath+'detStats.bin', 'rb'))
             succ=1
         except:
             pass
@@ -282,9 +283,9 @@ def RSNDcount(mode, count, echoing='on', writeEnd='off'):
     
 def stopMove(axis):
     if axisDict.get(axis) != 'None':
-        movingAxes=pickle.load( open( "/home/szakal/Dropbox/mainPy/movingAxes.bin", "rb") )
+        movingAxes=pickle.load( open( emulatorPath+"movingAxes.bin", "rb") )
         movingAxes[axisDictRev[axis]]=0
-        pickle.dump(movingAxes, open("/home/szakal/Dropbox/mainPy/movinAxes.bin", "wb") )
+        pickle.dump(movingAxes, open( emulatorPath+"movinAxes.bin", "wb") )
         return
     else:
         return

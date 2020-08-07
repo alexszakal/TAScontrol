@@ -23,8 +23,13 @@ class Sample(basicSampleType):
             self.ORef=zeros((2,8))
             self.pVec=matrix('1 0 0; 0 1 0')
         else:
-            print('Loading file: '+name+'.bin\n')        
-            sampleData=pickle.load(open(configDataPath+name+'.bin', 'rb'))
+            print('Loading file: '+name+'.bin\n')
+            try:
+                sampleData=pickle.load(open(configDataPath+'defaultSample.bin', 'rb'))
+            except:
+                print('WARNING: The ' + name +'.bin could not be loaded. Loading the default values!' )
+                pickle.dump(Sample(), open(configDataPath+'defaultSample.bin', 'wb'))
+                sampleData=pickle.load(open(configDataPath+'defaultSample.bin', 'rb'))
             self.name=sampleData.name
             self.a=sampleData.a
             self.b=sampleData.b

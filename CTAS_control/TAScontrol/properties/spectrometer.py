@@ -35,8 +35,14 @@ class Spectrometer(basicSpectrometer):
             ('sgL', [-15,15]), ('sgU', [-15,15]) ] )
             
             
-        else:        
-            spectrometerData=pickle.load(open(configDataPath+name+'.bin', 'rb'))
+        else: 
+            print("Trying to open: " + name)
+            try:
+                spectrometerData=pickle.load(open(configDataPath+name+'.bin', 'rb'))
+            except:
+                print('WARNING: Could not open ' + name + '.bin. Loading the default values instead !!')
+                pickle.dump(Spectrometer(), open(configDataPath+'defaultSpectrometer.bin', 'wb'))
+                spectrometerData=pickle.load(open(configDataPath+'defaultSpectrometer.bin', 'rb'))
             self.d_monok=spectrometerData.d_monok
             self.d_ana=spectrometerData.d_ana
             

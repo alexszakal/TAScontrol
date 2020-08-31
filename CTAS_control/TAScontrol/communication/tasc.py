@@ -107,7 +107,7 @@ def startCounting(mode, value):
         commandSocket.sendall('StartDAQ,monitorlimit='+str(value)+';&\r\n')
     else:
         print('startCounting error. Give correct mode! Mode given: ' + mode)
-         
+
     data = commandSocket.recv(4096)
     print("startCount Reply:"+data)
     #print "DAQStart reply:"

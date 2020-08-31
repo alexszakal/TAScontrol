@@ -33,6 +33,18 @@ elif HWtype == 'ctas':
     from ..communication.tasc import stopMove
     from ..communication.tasc import read2Ddata
     from ..communication.tasc import sumCountsInROI
+elif HWtype == 'ATHOS_tasc':
+    from ..communication.ATHOS_emulator import startCounting
+    from ..communication.ATHOS_emulator import readDetectorStats
+    from ..communication.ATHOS_emulator import readDetectorStatus
+    from ..communication.ATHOS_emulator import position
+    from ..communication.ATHOS_emulator import startMove
+    from ..communication.ATHOS_emulator import axisStatus
+    from ..communication.ATHOS_emulator import isMoving
+    from ..communication.ATHOS_emulator import RSNDcount
+    from ..communication.ATHOS_emulator import stopMove
+    from ..communication.ATHOS_emulator import read2Ddata
+    from ..communication.ATHOS_emulator import sumCountsInROI
 
 from TAScontrol.properties.sample import *
 from TAScontrol.properties.spectrometer import *

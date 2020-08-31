@@ -1,8 +1,7 @@
+path = 'C:/Users/erdos/Documents/Munka/'
 
-dataPath=      '/home/szakal/Asztal/TAScontrol/CTAS_data/'
-logPath=       '/home/szakal/Asztal/TAScontrol/CTAS_data/logFiles/'
-logFullPath=   '/home/szakal/Asztal/TAScontrol/CTAS_data/logFullFiles/'
-configDataPath='/home/szakal/Asztal/TAScontrol/CTAS_control/'
-
-emulatorPath = '/home/szakal/Asztal/TAScontrol/CTAS_control/'
-
+dataPath=      path + 'TAScontrol/CTAS_data/'
+logPath=       path + 'TAScontrol/CTAS_data/logFiles/'
+logFullPath=   path + 'TAScontrol/CTAS_data/logFullFiles/'
+configDataPath=path + 'TAScontrol/CTAS_control/'
+emulatorPath = path + 'TAScontrol/CTAS_control/'

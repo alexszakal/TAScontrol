@@ -99,6 +99,6 @@ print("\n\n")
 #from TAScontrol.communication.tasc import readDetectorStats
 #from TAScontrol.communication.tasc import startCounting  
 #from TAScontrol.communication.tasc import axisStatus
-#from TAScontrol.communication.tasc import startMove
+#from TAScontrol.communication.ATHOS_tasc import startMove
 #from TAScontrol.communication.tasc import position
 #from TAScontrol.communication.tasc import stopMove

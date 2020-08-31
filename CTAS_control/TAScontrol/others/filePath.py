@@ -1,7 +1,7 @@
-path = 'C:/Users/erdos/Documents/Munka/'
+path = '/home/athos/Asztal/TAScontrol-devel'
 
-dataPath=      path + 'TAScontrol/CTAS_data/'
-logPath=       path + 'TAScontrol/CTAS_data/logFiles/'
-logFullPath=   path + 'TAScontrol/CTAS_data/logFullFiles/'
-configDataPath=path + 'TAScontrol/CTAS_control/'
-emulatorPath = path + 'TAScontrol/CTAS_control/'
+dataPath=      path + '/CTAS_data/'
+logPath=       path + '/CTAS_data/logFiles/'
+logFullPath=   path + '/CTAS_data/logFullFiles/'
+configDataPath=path + '/CTAS_control/'
+emulatorPath = path + '/CTAS_control/'

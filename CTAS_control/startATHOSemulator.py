@@ -6,7 +6,7 @@ import numpy
 from TAScontrol.others.filePath import *
 
 global HWtype
-HWtype='ATHOS_task'
+HWtype='emulator'
 pickle.dump(HWtype, open(configDataPath+"HWtype.bin",'wb') )
 
 from TAScontrol.user_commands.commands import count

@@ -1,7 +1,7 @@
-path = '/home/athos/Asztal/TAScontrol-devel'
+path = '/home/athos/TAScontrol/'
 
-dataPath=      path + '/CTAS_data/'
-logPath=       path + '/CTAS_data/logFiles/'
-logFullPath=   path + '/CTAS_data/logFullFiles/'
-configDataPath=path + '/CTAS_control/'
-emulatorPath = path + '/CTAS_control/'
+dataPath=      path + '/ATHOS_data/'
+logPath=       path + '/ATHOS_data/logFiles/'
+logFullPath=   path + '/ATHOS_data/logFullFiles/'
+configDataPath=path + '/CTAS_control/configData/'
+emulatorPath = path + '/CTAS_control/emulatorData/'

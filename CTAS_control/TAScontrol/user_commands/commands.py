@@ -33,18 +33,18 @@ elif HWtype == 'ctas':
     from ..communication.tasc import stopMove
     from ..communication.tasc import read2Ddata
     from ..communication.tasc import sumCountsInROI
-elif HWtype == 'ATHOS_tasc':
-    from ..communication.ATHOS_tasc import startCounting
-    from ..communication.ATHOS_tasc import readDetectorStats
-    from ..communication.ATHOS_tasc import readDetectorStatus
-    from ..communication.ATHOS_tasc import position
-    from ..communication.ATHOS_tasc import startMove
-    from ..communication.ATHOS_tasc import axisStatus
-    from ..communication.ATHOS_tasc import isMoving
-    from ..communication.ATHOS_tasc import RSNDcount
-    from ..communication.ATHOS_tasc import stopMove
-    from ..communication.ATHOS_tasc import read2Ddata
-    from ..communication.ATHOS_tasc import sumCountsInROI
+elif HWtype == 'athos':
+    from ..communication.athos_lowLevelFunc import startCounting
+    from ..communication.athos_lowLevelFunc import readDetectorStats
+    from ..communication.athos_lowLevelFunc import readDetectorStatus
+    from ..communication.athos_lowLevelFunc import position
+    from ..communication.athos_lowLevelFunc import startMove
+    from ..communication.athos_lowLevelFunc import axisStatus
+    from ..communication.athos_lowLevelFunc import isMoving
+    from ..communication.athos_lowLevelFunc import RSNDcount
+    from ..communication.athos_lowLevelFunc import stopMove
+    from ..communication.athos_lowLevelFunc import read2Ddata
+    from ..communication.athos_lowLevelFunc import sumCountsInROI
 
 from TAScontrol.properties.sample import *
 from TAScontrol.properties.spectrometer import *
@@ -132,57 +132,58 @@ def readangAll(axis):
     
 def rallh():
 
-    #for i in range(0,len(axisDictList)):
-    #    if (i%3==0) & (i!=0):     #Start new line
-    #        print
-    #    print axisDictList[i][0].rjust(10)+'{0:9.2f}'.format(readang(axisDictList[i][1],echoing='off')),
+    for i in range(0,len(axisDictList)):
+        if (i%3==0) & (i!=0):     #Start new line
+            print("\n")
+        print(axisDictList[i][0].rjust(10)+'{0:9.2f}'.format(readang(axisDictList[i][1],echoing='off')) ),
         
-    #print "\n\n"
+    print("\n\n")
     
-    print("\n---------------   Main TAS Angles   ---------------")
-    for i in range(8):     #Triple axis angles
-        if (i%4==0) & (i!=0):
-            print()
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print() 
+    #### FANCY STUFF FOR CTAS
+#    print("\n---------------   Main TAS Angles   ---------------")
+#    for i in range(8):     #Triple axis angles
+#        if (i%4==0) & (i!=0):
+#            print()
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print() 
+#    
+#    print("\n--------------- Monochromator stage ---------------")
+#    for i in range(8,11):  
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
+#    for i in range(11,13):
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
+#   
+#    print("\n---------------       Slit 1        ---------------")    
+#    for i in range(13,17): 
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
     
-    print("\n--------------- Monochromator stage ---------------")
-    for i in range(8,11):  
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-    for i in range(11,13):
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-   
-    print("\n---------------       Slit 1        ---------------")    
-    for i in range(13,17): 
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-    
-    print("\n---------------       Slit 2        ---------------") 
-    for i in range(17,21): 
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-        
-    print("\n---------------   Sample Translate  ---------------") 
-    for i in range(21,23): 
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-    
-    print("\n---------------    Analyzer Stage   ---------------") 
-    for i in range(23,27):  
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-
-    print("\n---------------      Distances      ---------------") 
-    for i in range(27,30):  
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
-    
-    print("\n--------------- Analyzer Shielding  ---------------") 
-    for i in range(30,32): 
-        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
-    print()
+#    print("\n---------------       Slit 2        ---------------") 
+#    for i in range(17,21): 
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
+#        
+#    print("\n---------------   Sample Translate  ---------------") 
+#    for i in range(21,23): 
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
+#    
+#    print("\n---------------    Analyzer Stage   ---------------") 
+#    for i in range(23,27):  
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
+#
+#    print("\n---------------      Distances      ---------------") 
+#    for i in range(27,30):  
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
+#    
+#    print("\n--------------- Analyzer Shielding  ---------------") 
+#    for i in range(30,32): 
+#        print(axisDictList[i][0].rjust(8)+'{0:7.3f}'.format(readang(axisDictList[i][1],echoing='off')), end=' ')
+#    print()
 
         
     return
@@ -305,7 +306,6 @@ def move(axis, targetPos, echoing="on", logging="on", wrend="on"):
         move('kf', 2*pi/targetPos, echoing="off", logging="off", wrend="off")
         return
         
-    
     if bool(axis == ath):
         if bool(actSpect.scattSign[0,2]==1):
             targetPos=targetPos+actSpect.axisOffsetDict[ axisDictRev[axis]]

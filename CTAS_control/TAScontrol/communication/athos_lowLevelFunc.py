@@ -5,7 +5,9 @@ import _thread
 import math
 from time import sleep
 
-from .tascAxisDefs import *
+from .athosCommSockets import zsamoSocket
+
+from .athosAxisDefs import *
 from TAScontrol.properties.spectrometer import *
 from TAScontrol.others.filePath import *
 
@@ -16,7 +18,7 @@ def position(axis):
     #motname is string
     #returns the position as floating point
 
-    statusSocket.sendall('getPos -a '+axis)
+    zsamoSocket.sendall('getPos -a '+axis)
     data = statusSocket.recv(4096)
     return float(data)
 
